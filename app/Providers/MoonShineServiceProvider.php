@@ -10,6 +10,8 @@ use MoonShine\Laravel\DependencyInjection\MoonShine;
 use MoonShine\Laravel\DependencyInjection\MoonShineConfigurator;
 use App\MoonShine\Resources\MoonShineUser\MoonShineUserResource;
 use App\MoonShine\Resources\MoonShineUserRole\MoonShineUserRoleResource;
+use App\MoonShine\Resources\Page\PageResource;
+use App\MoonShine\Resources\News\NewsResource;
 
 class MoonShineServiceProvider extends ServiceProvider
 {
@@ -22,6 +24,8 @@ class MoonShineServiceProvider extends ServiceProvider
             ->resources([
                 MoonShineUserResource::class,
                 MoonShineUserRoleResource::class,
+                PageResource::class,
+                NewsResource::class,
             ])
             ->pages([
                 ...$core->getConfig()->getPages(),
