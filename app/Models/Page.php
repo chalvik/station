@@ -9,6 +9,7 @@ use Spatie\Sluggable\SlugOptions;
 class Page extends Model
 {
     use HasSlug;
+
     protected $fillable = [
         'name',
         'title',
@@ -21,7 +22,7 @@ class Page extends Model
     /**
      * Get the options for generating the slug.
      */
-    public function getSlugOptions() : SlugOptions
+    public function getSlugOptions(): SlugOptions
     {
         return SlugOptions::create()
             ->generateSlugsFrom('title')
