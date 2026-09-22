@@ -12,7 +12,9 @@ use MoonShine\Laravel\QueryTags\QueryTag;
 use MoonShine\Support\ListOf;
 use MoonShine\UI\Components\Metrics\Wrapped\Metric;
 use MoonShine\UI\Components\Table\TableBuilder;
+use MoonShine\UI\Fields\Checkbox;
 use MoonShine\UI\Fields\ID;
+use MoonShine\UI\Fields\Text;
 use Throwable;
 
 /**
@@ -29,6 +31,11 @@ class NewsIndexPage extends IndexPage
     {
         return [
             ID::make(),
+            Text::make('Имя', 'name')->required(),
+            Text::make('Slug', 'slug'),
+            Text::make('Заголовок', 'title')->required(),
+            Checkbox::make('Опубликовать', 'published'),
+
         ];
     }
 

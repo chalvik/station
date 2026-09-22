@@ -13,6 +13,9 @@ use MoonShine\Support\ListOf;
 use MoonShine\UI\Components\Metrics\Wrapped\Metric;
 use MoonShine\UI\Components\Table\TableBuilder;
 use MoonShine\UI\Fields\ID;
+use MoonShine\UI\Fields\Image;
+use MoonShine\UI\Fields\Text;
+use MoonShine\UI\Fields\Textarea;
 use Throwable;
 
 /**
@@ -29,6 +32,11 @@ class PageIndexPage extends IndexPage
     {
         return [
             ID::make(),
+            Text::make('Имя', 'name')->required(),
+            Text::make('Slug', 'slug'),
+            Text::make('Заголовок', 'title')->required(),
+            Textarea::make('Контент', 'content'),
+            Image::make('Картинка', 'image'),
         ];
     }
 

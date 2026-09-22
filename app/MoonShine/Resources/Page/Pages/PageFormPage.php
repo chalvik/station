@@ -14,6 +14,9 @@ use MoonShine\Support\ListOf;
 use MoonShine\UI\Components\FormBuilder;
 use MoonShine\UI\Components\Layout\Box;
 use MoonShine\UI\Fields\ID;
+use MoonShine\UI\Fields\Image;
+use MoonShine\UI\Fields\Text;
+use MoonShine\UI\Fields\Textarea;
 use Throwable;
 
 /**
@@ -29,6 +32,11 @@ class PageFormPage extends FormPage
         return [
             Box::make([
                 ID::make(),
+                Text::make('Имя', 'name')->required(),
+                Text::make('Slug', 'slug'),
+                Text::make('Заголовок', 'title')->required(),
+                Textarea::make('Контент', 'content'),
+                Image::make('Картинка', 'image'),
             ]),
         ];
     }

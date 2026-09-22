@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\MoonShine\Resources\MenuItem\Pages;
 
+use App\Enums\MenuEnum;
 use App\MoonShine\Resources\MenuItem\MenuItemResource;
 use MoonShine\Contracts\UI\ComponentContract;
 use MoonShine\Contracts\UI\FieldContract;
@@ -12,7 +13,10 @@ use MoonShine\Laravel\QueryTags\QueryTag;
 use MoonShine\Support\ListOf;
 use MoonShine\UI\Components\Metrics\Wrapped\Metric;
 use MoonShine\UI\Components\Table\TableBuilder;
+use MoonShine\UI\Fields\Enum;
 use MoonShine\UI\Fields\ID;
+use MoonShine\UI\Fields\Number;
+use MoonShine\UI\Fields\Text;
 use Throwable;
 
 /**
@@ -29,6 +33,11 @@ class MenuItemIndexPage extends IndexPage
     {
         return [
             ID::make(),
+            Enum::make('Меню', 'menu_id')
+                ->attach(MenuEnum::class)->required(),
+            Text::make('Заголовок', 'title')->required(),
+            Text::make('Url', 'url'),
+            Number::make('Сортировка', 'order'),
         ];
     }
 

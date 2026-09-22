@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace App\Providers;
 
+use App\MoonShine\Resources\Compostion\CompostionResource;
+use App\MoonShine\Resources\Meet\MeetResource;
 use App\MoonShine\Resources\MenuItem\MenuItemResource;
 use App\MoonShine\Resources\MoonShineUser\MoonShineUserResource;
 use App\MoonShine\Resources\MoonShineUserRole\MoonShineUserRoleResource;
@@ -29,6 +31,8 @@ class MoonShineServiceProvider extends ServiceProvider
                 NewsResource::class,
                 SliderImageResource::class,
                 MenuItemResource::class,
+                CompostionResource::class,
+                MeetResource::class,
             ])
             ->pages([
                 ...$core->getConfig()->getPages(),

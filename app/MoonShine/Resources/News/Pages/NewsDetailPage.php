@@ -10,7 +10,11 @@ use MoonShine\Contracts\UI\FieldContract;
 use MoonShine\Laravel\Pages\Crud\DetailPage;
 use MoonShine\Support\ListOf;
 use MoonShine\UI\Components\Table\TableBuilder;
+use MoonShine\UI\Fields\Checkbox;
 use MoonShine\UI\Fields\ID;
+use MoonShine\UI\Fields\Image;
+use MoonShine\UI\Fields\Text;
+use MoonShine\UI\Fields\Textarea;
 use Throwable;
 
 /**
@@ -25,6 +29,13 @@ class NewsDetailPage extends DetailPage
     {
         return [
             ID::make(),
+            Text::make('Имя', 'name')->required(),
+            Text::make('Slug', 'slug'),
+            Text::make('Заголовок', 'title')->required(),
+            Textarea::make('Контент', 'content'),
+            Image::make('Картинка', 'image'),
+            Checkbox::make('Опубликовать', 'published'),
+
         ];
     }
 

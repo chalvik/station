@@ -18,7 +18,7 @@ class MenuItemResource extends ModelResource
 {
     protected string $model = MenuItem::class;
 
-    protected string $title = 'MenuItems';
+    protected string $title = 'Меню';
 
     /**
      * @return list<class-string<PageContract>>
