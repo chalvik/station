@@ -11,6 +11,7 @@ use App\MoonShine\Resources\Page\PageResource;
 use Illuminate\Support\ServiceProvider;
 use MoonShine\Contracts\Core\DependencyInjection\CoreContract;
 use MoonShine\Laravel\DependencyInjection\MoonShineConfigurator;
+use App\MoonShine\Resources\SliderImage\SliderImageResource;
 
 class MoonShineServiceProvider extends ServiceProvider
 {
@@ -25,6 +26,7 @@ class MoonShineServiceProvider extends ServiceProvider
                 MoonShineUserRoleResource::class,
                 PageResource::class,
                 NewsResource::class,
+                SliderImageResource::class,
             ])
             ->pages([
                 ...$core->getConfig()->getPages(),
