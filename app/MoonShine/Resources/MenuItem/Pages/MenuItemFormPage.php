@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\MoonShine\Resources\SliderImage\Pages;
+namespace App\MoonShine\Resources\MenuItem\Pages;
 
-use App\MoonShine\Resources\SliderImage\SliderImageResource;
+use App\MoonShine\Resources\MenuItem\MenuItemResource;
 use MoonShine\Contracts\Core\TypeCasts\DataWrapperContract;
 use MoonShine\Contracts\UI\ComponentContract;
 use MoonShine\Contracts\UI\FieldContract;
@@ -17,9 +17,9 @@ use MoonShine\UI\Fields\ID;
 use Throwable;
 
 /**
- * @extends FormPage<SliderImageResource>
+ * @extends FormPage<MenuItemResource>
  */
-class SliderImageFormPage extends FormPage
+class MenuItemFormPage extends FormPage
 {
     /**
      * @return list<ComponentContract|FieldContract>

@@ -2,34 +2,29 @@
 
 declare(strict_types=1);
 
-namespace App\MoonShine\Resources\SliderImage\Pages;
+namespace App\MoonShine\Resources\MenuItem\Pages;
 
-use App\MoonShine\Resources\SliderImage\SliderImageResource;
-use MoonShine\Contracts\Core\TypeCasts\DataWrapperContract;
+use App\MoonShine\Resources\MenuItem\MenuItemResource;
 use MoonShine\Contracts\UI\ComponentContract;
 use MoonShine\Contracts\UI\FieldContract;
-use MoonShine\Contracts\UI\FormBuilderContract;
-use MoonShine\Laravel\Pages\Crud\FormPage;
+use MoonShine\Laravel\Pages\Crud\DetailPage;
 use MoonShine\Support\ListOf;
-use MoonShine\UI\Components\FormBuilder;
-use MoonShine\UI\Components\Layout\Box;
+use MoonShine\UI\Components\Table\TableBuilder;
 use MoonShine\UI\Fields\ID;
 use Throwable;
 
 /**
- * @extends FormPage<SliderImageResource>
+ * @extends DetailPage<MenuItemResource>
  */
-class SliderImageFormPage extends FormPage
+class MenuItemDetailPage extends DetailPage
 {
     /**
-     * @return list<ComponentContract|FieldContract>
+     * @return list<FieldContract>
      */
     protected function fields(): iterable
     {
         return [
-            Box::make([
-                ID::make(),
-            ]),
+            ID::make(),
         ];
     }
 
@@ -38,21 +33,11 @@ class SliderImageFormPage extends FormPage
         return parent::buttons();
     }
 
-    protected function formButtons(): ListOf
-    {
-        return parent::formButtons();
-    }
-
-    protected function rules(DataWrapperContract $item): array
-    {
-        return [];
-    }
-
     /**
-     * @param  FormBuilder  $component
-     * @return FormBuilder
+     * @param  TableBuilder  $component
+     * @return TableBuilder
      */
-    protected function modifyFormComponent(FormBuilderContract $component): FormBuilderContract
+    protected function modifyDetailComponent(ComponentContract $component): ComponentContract
     {
         return $component;
     }

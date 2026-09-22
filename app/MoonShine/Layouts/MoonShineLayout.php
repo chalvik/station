@@ -4,15 +4,16 @@ declare(strict_types=1);
 
 namespace App\MoonShine\Layouts;
 
+use App\MoonShine\Resources\MenuItem\MenuItemResource;
 use App\MoonShine\Resources\News\NewsResource;
 use App\MoonShine\Resources\Page\PageResource;
+use App\MoonShine\Resources\SliderImage\SliderImageResource;
 use MoonShine\ColorManager\ColorManager;
 use MoonShine\ColorManager\Palettes\PurplePalette;
 use MoonShine\Contracts\ColorManager\ColorManagerContract;
 use MoonShine\Contracts\ColorManager\PaletteContract;
 use MoonShine\Laravel\Layouts\AppLayout;
 use MoonShine\MenuManager\MenuItem;
-use App\MoonShine\Resources\SliderImage\SliderImageResource;
 
 final class MoonShineLayout extends AppLayout
 {
@@ -35,6 +36,7 @@ final class MoonShineLayout extends AppLayout
             MenuItem::make(PageResource::class, 'Pages'),
             MenuItem::make(NewsResource::class, 'News'),
             MenuItem::make(SliderImageResource::class, 'SliderImages'),
+            MenuItem::make(MenuItemResource::class, 'MenuItems'),
         ];
     }
 
