@@ -1,0 +1,3660 @@
+/*
+#START TO DEFAULT CSS
+#START TO SLICK CSS
+#START TO TITLE CSS
+#START TO ABOUT CSS
+#START TO SERVICE CSS
+#START TO FLIPBOX CSS
+#START TO SINGLE IMAGE CSS
+#START TO CAROUSEL IMAGE CSS
+#START TO PORTFOLIO CSS
+#START TO PORTFOLIO GELLARY CSS
+#START TO CALL TO ACTION
+#START TO COUNTER CSS
+#START TO TABS CSS
+#START TO VIDEO CSS
+#START TO PRICING CSS
+#START TO ACCORDING CSS
+#START TO CLASSIC BUTTON CSS
+#START TO BLOG CSS
+#START TO EVENT CSS
+#START TO TEAM CSS
+#START TO SOCIALICONS CSS
+#START TO TEXTEDIT WIDGET CSS
+#START TO TESTIMONIAL CSS
+#START TO CIRCLE CSS
+#START TO SCHEDULE CSS
+#START TO IMAGE GELLARY CSS
+#START TO LIST ELEMENT CSS
+#START TO SOCIAL FEED ELEMENT CSS
+#START TO CASE STUDY CSS
+#START TO COURSE ELEMENT CSS
+#START TO CONTACT ELEMENT CSS
+#START TO COUNTDOWN ELEMENT CSS
+#START TO APPS BUTTON ELEMENT CSS
+#START TO TIMELINE HR ELEMENT CSS...
+#START TO VERTICAL TIMELINE ELEMENT CSS
+#START TO BUTTON ELEMENT CSS
+#START TO MARQUEE ELEMENT CSS
+#START TO PRICE LIST CSS
+#START TO IMAGE COMPARE ELEMENT CSS
+#START TO IMAGE AND TEXT CAROUSEL CSS
+#START TO MORDAL ELEMENT CSS
+#START TO PROCESS ELEMENT CSS
+#START TO PROGRESS ELEMENT CSS
+#START TO SCREENSHOT ELEMENT CSS
+#START TO SHOWDETAILS ELEMENT CSS
+#START TO SHAPE ELEMENT CSS...
+#START TO RESPONSIVE CSS
+*/
+/*===========================================================================================
+							#START TO DEFAULT CSS
+=============================================================================================*/
+/*
+    //--brcolor:#006df5; /* Brand color */
+   /* --brhovercolor:#ffa000; /* Brand Hover color */
+	/*--brrgb: 0, 109, 245; /* Brand rgb color */
+	/*--bropacity:rgba(0,109,245,0.4); /* Brand opacity color */
+   /* --black:#000000; /* black color */
+	/*--white:#ffffff; /* white color */
+   /* --bdcolor:#dddddd; /* border color */
+   /* --bdhcolor:#006df5; /* border hover color */
+    /*--linkcolor:#000000; /* link  color */	
+    /*--titlecolor:#121111; /* title color */
+  /*  --pracolor:#666666; /* pragrap/body color */	
+  /*  --bshadow:rgba(0,0,0,0.05); /* opacity color box shadow */  
+
+
+ .fix{
+     clear: both;
+}
+/* accouding elementor 2 */
+/* style css */
+ .elementor-accordion .elementor-accordion-item {
+     border-left: 2px solid var(--brcolor) !important;
+     border: 0 !important;
+     margin-bottom:20px;
+     box-shadow: 1px 1px 7px -5px rgba(0, 0, 0, 0.75);
+}
+ .elementor-accordion .elementor-tab-content {
+     border-top: none !important;
+}
+ .elementor-tab-title a, .elementor-widget-accordion .elementor-accordion .elementor-tab-title {
+     font-size: 17px;
+     font-weight: 600;
+}
+/*=========================================================================================== START TO DEFAULT CSS =============================================================================================*/
+.mg00{
+    margin:0;
+}
+.mg0{
+     margin:0 !important;
+}
+ .mgb20{
+     margin-bottom:20px;
+}
+ .mgt20{
+     margin-top:20px;
+}
+ .txbdbcolor{
+     color:var(--brcolor);
+}
+ .txbdbhcolor:hover{
+     color:var(--brcolor);
+}
+ .txcwhite{
+     color:var(--white);
+}
+ .txcwhiteh:hover{
+     color: var(--brhovercolor);
+}
+ .txbdwbg{
+     background:var(--white);
+}
+ .txbdbbg{
+     background:var(--brcolor);
+}
+ .txbdbg,.afterbg::after,.beforebg::before{
+     background:var(--brcolor);
+}
+/* btn tyfo */
+ .btnallt {
+     font-size: 16px;
+     font-weight: 500;
+}
+/* btn style */
+ .btnallt{
+     position:relative;
+}
+ .btnall {
+     border: 1px solid var(--bdcolor);
+     display: inline-block;
+     border-radius: 5px;
+     padding: 7px 25px;
+}
+/* btn icon */
+ .btniconleft i {
+     margin-left: 5px;
+}
+ .btniconright i {
+     margin-right: 5px;
+}
+/* btn circle */
+ .btncircle{
+}
+ .btncircle i {
+     color: var(--white);
+     background: var(--brcolor);
+     border: 1px solid var(--brcolor);
+     height: 52px;
+     width: 52px;
+     text-align: center;
+     line-height: 50px;
+     border-radius: 50%;
+     display: inline-block;
+     margin: 0 10px;
+     transition:.5s;
+     animation: witr-shadow 1s linear infinite;
+}
+/* icon css */
+ .iconall{
+     margin-bottom:10px;
+}
+ .iconalltf i{
+     font-size: 22px;
+     text-align: center;
+     display: inline-block;
+     transition:.5s;
+}
+ .iconall i {
+     height: 50px;
+     width: 50px;
+     border-radius: 50%;
+     line-height: 48px;
+     border: 1px solid var(--bdcolor);
+}
+ .icondff i{
+     border-radius: 30% 70% 70% 30%/50% 50% 50% 50%;
+}
+/* border and text brand color */
+ .txbdbrbt, .btnallbt, .iconallbt i {
+     border: 1px solid var(--brcolor);
+     color:var(--brcolor);
+}
+/* btn hover brand color */
+ .txbdbrhv:hover, .btnall:hover, .iconall i:hover, .txbdsva:hover .iconall i, .tteamsocial a:hover, .filter_menu li:hover, .filter_menu li.current_menu_item {
+     background: var(--brcolor);
+     border-color: var(--brcolor);
+     color: var(--white);
+}
+/* active btn brand color */
+ .txbdbrac, .btnallactive, .iconallactive i{
+     background: var(--brcolor);
+     border-color: var(--brcolor);
+     color: var(--white);
+}
+/* active hover btn, slider social, icon active color brand color */
+ .txbdbrac:hover, .btnallactive:hover, .txbdssocial ul li a:hover, .btncircle i:hover, .iconallactive i:hover, .txbdsva:hover .iconallactive i {
+     background: var(--brhovercolor);
+     border-color: var(--brhovercolor);
+     color: var(--white);
+}
+ .btniconp i {
+     position: absolute;
+     right: -28px;
+     top: 50%;
+     transform: translateY(-50%);
+     z-index: 1;
+     height: 45px;
+     width: 45px;
+     border-radius: 50%;
+     line-height: 43px;
+     border: 1px solid var(--brcolor);
+     background: var(--brcolor);
+     color: var(--white);
+     text-align: center;
+     transition:.5s;
+}
+ .btniconp:hover i{
+     border: 1px solid var(--white);
+     background: var(--white);
+     color: var(--brcolor);
+}
+/* opacity and transform style */
+ .opacity0{
+     opacity:0;
+}
+ .opacity1{
+     opacity:1;
+}
+ .txbdsva:hover .opacityh0{
+     opacity:0;
+}
+ .txbdsva:hover .opacityh1{
+     opacity:1;
+}
+ .opacitybf0::before, .opacityaf0::after {
+     opacity:0;
+}
+ .opacitybf1::before, .opacityaf1::after {
+     opacity:1;
+}
+ .opacitybfh0:hover ::before, .opacityafh0:hover ::after {
+     opacity:0;
+}
+ .opacitybfh1:hover ::before, .opacityafh1:hover ::after {
+     opacity:1;
+}
+ .transformsc0{
+     transform:scale(0);
+}
+ .transformsc1{
+     transform:scale(1);
+}
+ .transformsch0:hover{
+     transform:scale(0);
+}
+ .transformsch1:hover{
+     transform:scale(1);
+}
+/* before style */
+ .txbdbfall{
+     z-index:1;
+}
+ .txbdonlypo::before, .txbdonlypo::after {
+     content: "";
+     position: absolute;
+     transition: .5s;
+}
+ .txbdbfallbg::before, .txbdbfallbg::after {
+     background:var(--brcolor);
+}
+ .txbdbfall::before {
+     background:var(--brcolor);
+     content: "";
+     position: absolute;
+     transition: .5s;
+     z-index:-1;
+}
+.txbdbfallbgov::before, .txbdbfallbgov::after {
+    background:var(--bropacity);
+}
+ .txbdbfallz::before, .txbdbfallz::after {
+     z-index:999;
+}
+ .txbdbfltrb::before {
+     top: 0;
+     left: 0;
+     right:0;
+     bottom:0;
+}
+ .txbdbfl::before {
+     height: 0%;
+     top: 0;
+     left: 0;
+     width: 3px;
+}
+ .txbdbfr::before{
+     height: 0%;
+     top: 0;
+     right: 0;
+     width: 3px;
+}
+ .txbdbfl:hover::before, .txbdbfr:hover::before {
+     height: 40%;
+}
+ .txbdbft::before {
+     height:3px;
+     top: 0;
+     left: 0;
+     width: 0%;
+}
+ .txbdbfb::before {
+     height:3px;
+     bottom: 0;
+     left: 0;
+     width: 0%;
+}
+ .txbdaft::after {
+     height:3px;
+     top: 0;
+     left: 0;
+     width: 0%;
+}
+ .txbdafb::after{
+     height:3px;
+     bottom: 0;
+     right: 0;
+     width: 0%;
+}
+ .txbdbft:hover::before, .txbdaft:hover::after, .txbdbfb:hover::before, .txbdafb:hover::after {
+     width: 100%;
+}
+ .txbdbfltrb100::before{
+     height: 100%;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     width: 100%;
+     transition:.5s;
+	 opacity: 0;
+}
+ .txbdbfltrb100:hover::before {
+     opacity: 1;
+}
+ .txbdbfl100::before {
+     height: 100%;
+     top: 0;
+     left: 0;
+     width: 3px;
+    /* clip-path: polygon(0 1%, 85% 0, 100% 100%, 0% 100%);
+     */
+}
+ .txbdbfr100::before {
+     height: 100%;
+     top: 0;
+     right: 0;
+     width: 3px;
+}
+ .txbdbft100::before {
+     height: 3px;
+     top: 0;
+     left: 0;
+     width: 100%;
+}
+ .txbdbfb100::before {
+     height: 3px;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+}
+ .txbdbfl100:hover::before, .txbdbfr100:hover::before {
+     width:100%;
+}
+ .txbdbft100:hover::before, .txbdbfb100:hover::before {
+     height:100%;
+}
+ .txbdboxwhitetext .iconalltf i, .txbdboxwhitetext .txstcolor, .txbdboxwhitetext p, .txbdboxwhitetext ul li, .txbdboxwhitetext ul li a, .txbdboxwhitetext span, .txbdboxwhitetext a {
+     color:var(--white);
+     border-color:var(--white);
+}
+ .txbdboxwhitetext .iconall i, .txbdboxwhitetext .btnall{
+     background:var(--white);
+     border-color:var(--white);
+     color:var(--brcolor);
+}
+ .txbdboxallhover:hover .iconalltf i, .txbdboxallhover:hover .txstcolor,.txbdboxallhover:hover .teamtit, .txbdboxallhover:hover p, .txbdboxallhover:hover ul li, .txbdboxallhover:hover ul li a, .txbdboxallhover:hover span, .txbdboxallhover:hover a {
+     color:var(--white);
+     border-color:var(--white);
+}
+ .txbdboxallhover:hover .iconall i, .txbdboxallhover:hover .btnall{
+     background:var(--white);
+     border-color:var(--white);
+     color:var(--brcolor);
+}
+/* box text position */
+ .zindex-1{
+     z-index:-1;
+}
+ .zindex999{
+     z-index:9999;
+}
+ .zindex99{
+     z-index:999;
+}
+/* box position */
+.videoboxposi,
+.boxtexrelative{
+     position:relative;
+}
+
+.boxtextposire{
+     position:relative;
+     overflow:hidden;
+}
+ .boxtextposi {
+     content: "";
+     position: absolute;
+     transition: .5s;
+     text-align: center;
+     height: 100%;
+     width: 100%;
+}
+ .posibg, .txbdbfltrb::before{
+     background: var(--bropacity);
+}
+ .txbdbfoverlay:hover::before{
+     background: var(--bropacity);
+}
+ .boxposiltrb{
+     left:0;
+     top:0;
+     right:0;
+     bottom:0;
+}
+ .boxtextpost {
+     top: -100%;
+}
+ .boxtextposl {
+     top: 0;
+     left:-100%;
+}
+ .boxtextposr {
+     top: 0;
+     right:-100%;
+}
+ .boxtextposbl {
+     bottom: 0;
+     left: -100%;
+     right: 0;
+     height: auto;
+     z-index: 99999;
+}
+ .boxtextposb {
+     bottom: -100%;
+}
+ .boxtextposineer {
+     position: relative;
+     top: 50%;
+     -webkit-transform: translateY(-50%);
+     transform: translateY(-50%);
+}
+ .allposihv:hover .boxtextpost,
+ .txbdsva:hover .boxtextpost
+  {
+     top:0;
+}
+ .txbdsva:hover .boxtextposbl{
+     left: 15px;
+     bottom: 15px;
+}
+ .txbdallph:hover .boxtextposl, .txbdsva:hover .boxtextposl {
+     left:0;
+}
+ .txbdsva:hover .boxtextposr {
+     right:0;
+}
+ .txbdsva:hover .boxtextposb {
+     bottom:0;
+}
+ .txbdmb30{
+     margin-bottom:30px;
+}
+/* highlight title span */
+ .hlight span{
+     color:var(--brcolor);
+}
+/* box shadow */
+ .boxsh{
+     box-shadow: 0px 0px 20px 0px var(--bshadow);
+}
+/*=========================================================================================== #START TO SLICK CSS =============================================================================================*/
+/* =========== Slick slider Main css============ */
+ .txbdslider {
+     background-size: cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     position:relative;
+     z-index:1;
+}
+ .txbdslider::before{
+     position:absolute;
+     left:0px;
+     top:0px;
+     right:0px;
+     bottom:0px;
+     content:"";
+     z-index:-1;
+}
+.txbdsinner {
+    align-items: center;
+    display: flex;
+    height: 800px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 68.29%;
+    position: relative;
+    z-index: 1;
+}
+ .txbdsinner.allleft {
+     justify-content: flex-start;
+     text-align: left;
+}
+ .txbdsinner.allright {
+     justify-content: flex-end;
+     text-align: right;
+}
+/* slider title */
+ .txbdsinner .txbdstitle {
+     font-size: 80px;
+     margin: auto;
+     margin-bottom: 0px;
+}
+ .txbdsinner .swsmall.txbdstitle {
+     font-size: 20px;
+}
+ .allleft .txbdstitle {
+     width: 100%;
+     margin-left: 0;
+     margin-right: auto;
+}
+ .allright .txbdstitle {
+     width: 100%;
+     margin-left: auto;
+     margin-right: 0;
+}
+/* slider pragraph */
+ .txbdsinner p{
+     margin:auto;
+     margin-top: 16px;
+     width:68%;
+}
+ .allleft p {
+     margin-left: 0;
+     margin-right: auto;
+}
+ .allright p {
+     margin-left: auto;
+     margin-right: 0;
+}
+/* listing css */
+ .txbdlist{
+     margin-top:20px;
+}
+ .txbdsinner ul {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+}
+ .txbdlist ul li{
+     display:inline-block;
+}
+ .txbdlist ul li i {
+     margin: 0 8px;
+     background: var(--brcolor);
+     color: var(--white);
+     padding: 2px;
+}
+/* slider btn */
+ .txbdsbtn {
+     margin-top: 30px;
+}
+ .txbdsbtn .btnall{
+     margin-right:10px;
+}
+/* slider social */
+ .txbdssocial ul li{
+     list-style: none;
+     display: inline-block;
+}
+ .txbdssocial ul li a{
+}
+ .txbdssocial ul li a{
+     background: var(--brcolor);
+     color:var(--white);
+     font-size: 15px;
+     height: 35px;
+     width: 35px;
+     line-height: 35px;
+     text-align: center;
+     border-radius: 5px;
+     margin:30px 5px 0;
+     display: inline-block 
+}
+
+/* slider image thumb position */
+ .allleft .witr_slider_thumb {
+     position: absolute;
+     right: 6%;
+     top: 50%;
+     z-index: -1;
+     -webkit-transform: translateY(-50%);
+     transform: translateY(-50%);
+}
+ .allright .witr_slider_thumb {
+     position: absolute;
+     left: 6%;
+     top: 50%;
+     z-index: -1;
+     -webkit-transform: translateY(-50%);
+     transform: translateY(-50%);
+}
+ .slider_vd_icon {
+     position: absolute;
+     right: 10%;
+     top: 50%;
+     transform: translateY(-50%);
+     z-index: 1;
+}
+/*====================== swiper slider pagination ======================*/
+.slick-current .sstone,
+.slick-current .ssttwo,
+.slick-current .sstthree,
+.slick-current .txbdscontent p,
+.slick-current .txbdsbtn .btnallt,
+.swiper-slide-active .swsmall,
+.swiper-slide-active .swttwo,
+.swiper-slide-active .swtthree,
+.swiper-slide-active .txbdscontent p,
+.swiper-slide-active .txbdsbtn .btnallt{
+    animation-fill-mode: both;
+    animation-duration: 1.3s;
+    animation-name: fadeInUp;
+    animation-delay: 1.6s;
+}
+.slick-current .sstone,
+.swiper-slide-active .swsmall {
+    animation-delay: 0.7s;
+}
+.slick-current .ssttwo,
+.swiper-slide-active .swttwo {
+    animation-delay: 1.1s;
+}
+.slick-current .txbdscontent p,
+.swiper-slide-active .txbdscontent p {
+    animation-delay: 1.7s;
+}
+.slick-current .txbdsbtn .btnallt,
+.swiper-slide-active .txbdsbtn .btnallt {
+    animation-delay: 1.8s;
+}
+/* pagination prev next */
+.swiper-button-prev, .swiper-button-next {
+    padding: 15px 20px;
+    width: auto;
+    height: auto;
+    background-image:inherit !important;
+    transition: .5s;
+    outline: none;
+    opacity: 0;
+    color:var(--brcolor);   
+}
+ .swiper-button-prev:hover, .swiper-button-next:hover {
+    padding:20px 25px;
+    color:var(--brcolor);
+     background:var(--white);
+}
+.swiper:hover .swiper-button-next,
+.swiper:hover .swiper-button-prev {
+    opacity: 1;
+}
+ .swiper-button-next:after, .swiper-button-prev:after{
+     font-size: 30px;
+}
+.swiper_sai.swiper-button-next:after, .swiper_sai.swiper-button-prev:after{
+    font-family: inherit;
+    font-size: 25px;
+}
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 0 !important;
+}
+/* pagination bullet */
+ .witr_swiper_area .swiper-pagination-bullet{
+     width: 15px;
+     height: 15px;
+     background: var(--brcolor);
+}
+/* progressbar */
+ .witr_swiper_area .swiper-pagination-progressbar .swiper-pagination-progressbar-fill, .witr_swiper_area .swiper-horizontal>.swiper-pagination-progressbar{
+     height: 5px;
+}
+/* scrollbar */
+ .witr_swiper_area .swiper-scrollbar-drag, .witr_swiper_area .swiper-horizontal>.swiper-scrollbar{
+     height: 10px;
+     bottom: auto !important;
+     top: 0 !important;
+}
+ .witr_swiper_area .swiper-pagination-progressbar .swiper-pagination-progressbar-fill, .witr_swiper_area .swiper-scrollbar-drag {
+     background: var(--brcolor);
+}
+ .swiper-scrollbar{
+     display: none;
+}
+ .swiper-scrollbar.swiper-scrollbar-horizontal{
+     display: block;
+}
+.swiper-cube .swiper-cube-shadow {
+    display: none;
+}
+/*=========================================================================================== #START TO TITLE CSS =============================================================================================*/
+ .tts{
+     position:relative;
+}
+ .ttin{
+     position:relative;
+     z-index:1;
+}
+ .ttbt{
+     position:absolute;
+     top:0;
+     bottom:0;
+     right:0;
+     left:0;
+}
+ .title_in .ttbt {
+     z-index: -1;
+}
+ .ttbt h5{
+     font-size:80px;
+     -webkit-text-stroke: 1px #888888;
+     -webkit-text-fill-color: transparent;
+     line-height:1;
+}
+ .ttin .txbdstitle{
+     margin: auto;
+     font-size:45px;
+}
+ .ttin .txbdstitle.tsmall{
+     font-size:18px;
+}
+ .text-right .ttin .txbdstitle{
+     margin-right: 0px;
+}
+ .text-left .ttin .txbdstitle{
+     margin-left: 0px;
+}
+ .ttin .stone{
+     display: inline-block;
+}
+.ttin p {
+    margin-top: 10px;
+}
+ .ttin p span{
+     color:var(--brcolor);
+}
+ .text-center .ttin p{
+     width:74%;
+     margin-right:auto;
+     margin-left:auto;
+}
+ .text-left .ttin p{
+     width:74%;
+     margin-right:auto;
+     margin-left:0px;
+}
+ .text-right .ttin p{
+     width:74%;
+     margin-right:0px;
+     margin-left:auto;
+}
+ .ttit {
+     margin-top: 0px;
+     margin-bottom: 10px;
+}
+/* bar color title */
+ .ttbr {
+     margin: 10px 0;
+}
+ .ttbi{
+     height: 5px;
+     width: 90px;
+     margin: 0px auto;
+     position: relative;
+     border-radius: 30px;
+}
+ .text-left .ttbi{
+     margin-left:0px;
+}
+ .text-right .ttbi{
+     margin-right:0px;
+}
+/* title extrat style */
+ .title_in_area {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+}
+ .title_in{
+     position: relative;
+     width:100%;
+}
+ .title_in:before {
+     position: absolute;
+     right: 0;
+     top: 0;
+     height: 100%;
+     width: 2px;
+     content: "";
+}
+ .title_in:after {
+     position: absolute;
+     right: -5px;
+     top: 0;
+     height: 100%;
+     width: 2px;
+     content: "";
+}
+ .title_tx h4, .title_tx h2{
+     margin:0;
+}
+ .title_p {
+     text-align: left;
+     width: 100%;
+     padding-left:30px;
+}
+ .title_ptx p {
+     margin: 0;
+}
+/* circale Bar css */
+ .ttbic{
+     position:relative;
+}
+ .ttbic:before{
+     content: '';
+     position: absolute;
+     left: 0;
+     top: 50%;
+     -webkit-transform:translateY(-50%);
+     transform:translateY(-50%);
+     border-radius: 50%;
+     -webkit-animation-duration: 3s;
+     animation-duration: 3s;
+     -webkit-animation-timing-function: linear;
+     animation-timing-function: linear;
+     -webkit-animation-iteration-count: infinite;
+     animation-iteration-count: infinite;
+     -webkit-animation-name: move_title_bg1;
+     animation-name: move_title_bg1;
+}
+ .ttbic:after{
+     content: '';
+     position: absolute;
+     right: 0;
+     top: 50%;
+     -webkit-transform:translateY(-50%);
+     transform:translateY(-50%);
+     border-radius: 50%;
+     -webkit-animation-duration: 3s;
+     animation-duration: 3s;
+     -webkit-animation-timing-function: linear;
+     animation-timing-function: linear;
+     -webkit-animation-iteration-count: infinite;
+     animation-iteration-count: infinite;
+     -webkit-animation-name: move_title_bg2;
+     animation-name: move_title_bg2;
+}
+ .ttbic:before, .ttbic:after {
+     border: 6px solid var(--brcolor);
+}
+ @-webkit-keyframes move_title_bg1 {
+     from {
+         left:0;
+    }
+     to {
+         left:100%;
+    }
+}
+ @keyframes move_title_bg1 {
+     from {
+         left:0;
+    }
+     to {
+         left:100%;
+    }
+}
+ @-webkit-keyframes move_title_bg2 {
+     from {
+         right:0;
+    }
+     to {
+         right:100%;
+    }
+}
+ @keyframes move_title_bg2 {
+     from {
+         right:0;
+    }
+     to {
+         right:100%;
+    }
+}
+/*=========================================================================================== #START TO ABOUT CSS =============================================================================================*/
+ .witr_about_content h2, .witr_about_content h3, .witr_about_content p {
+     margin-left:auto !important;
+     margin-right:auto !important;
+}
+/*=========================================================================================== #START TO SERVICE CSS =============================================================================================*/
+ .boxpsv{
+     padding:30px 25px;
+}
+ .txbdsva{
+     position:relative;
+     transition: .5s;
+     z-index:1;
+}
+/* icon default style */
+ .txbdicondf{
+     margin-bottom:20px;
+}
+ .txbdicondf i{
+}
+/* title */
+ .txbdsvtitle{
+     margin-bottom:10px;
+}
+ a.txbdsvtitle:hover{
+     color:var(--brcolor);
+}
+/* subheading */
+ .subservicet span {
+     display: block;
+     font-size: 20px;
+}
+/* btn */
+ .txbdsvbtn {
+     margin-top: 22px;
+}
+ .txbdsva ul {
+     padding: 0;
+     margin: 10px 0 0;
+     display: inline-block;
+}
+ .txbdsva ul li{
+     list-style:none;
+     display:block;
+}
+ .txbdsva ul li a{
+     padding:1px 0;
+     display:block;
+     color:#666;
+}
+/* service 2 */
+ .txbdsvflex {
+     display: flex;
+     justify-content: space-between;
+	 gap: 14px;
+}
+ .txbdsvfdr{
+     flex-direction: row;
+     text-align: left;
+}
+ .txbdsvflextlr {
+     align-items: flex-start;
+}
+ .txbdsvfdrr{
+     flex-direction: row-reverse;
+     text-align: right;
+}
+ .sp-txbdsvfdrl{
+     padding-left:20px;
+}
+ .txbdsvflex .sp-txbdsvfdrl{
+     padding-left:0px;
+}
+ .sp-txbdsvfdrr{
+     padding-right:20px;
+}
+ .sp-txbdsvfdrl {
+     margin-bottom: 2px;
+}
+/* service 3 */
+ .txbdsstyle3 .txbdsvflex{
+     justify-content: flex-start;
+     padding: 20px 15px;
+}
+ .txbdsstyle3 .txbdsvtitle,.txbdsstyle3 .txbdsvtitle a,.txbdsstyle3 .iconalltf i {
+     color:var(--white);
+}
+/* service 4 */
+ .txbdimageinner{
+     position:relative;
+     overflow:hidden;
+}
+/* style 7 */
+ .txbdtitleposi {
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     z-index:999;
+     transition:.5s;
+}
+ .thbdspanposi {
+     top: 0;
+     left: auto;
+     right: 20px;
+     z-index: 999;
+     transition: .5s;
+     position: absolute;
+     font-size: 50px;
+     font-weight: 700;
+     color: var(--bdcolor);
+     transition:.5s;
+}
+ .iconabs i {
+     margin-bottom: 10px;
+     position: absolute;
+     left: 30px;
+     top: -25px;
+     z-index: 999;
+     width: 80px;
+     height: 54px;
+     line-height: 52px;
+     border-radius: 0;
+}
+ .iconabs i{
+     clip-path: polygon(0 1%, 85% 0, 100% 100%, 0% 100%);
+}
+ .iconopacity i{
+     font-size: 134px;
+     color: var(--bropacity);
+     transition:.5s;
+}
+.iconabs img{
+     margin-bottom: 10px;
+     position: absolute;
+     left: 30px;
+     top: -25px;
+     z-index: 999;
+}
+ .iconsabsconpd {
+     padding: 30px 15px 30px 15px;
+}
+ .txbdsva:hover .thbdspanposi{
+     color:var(--brcolor);
+}
+ .txbdsva:hover .txbdtitleposi{
+     bottom: -100%;
+}
+.txbdcon.sp-txbdsvfdrl {
+    width: 100%;
+}
+.imageicon {
+    flex: 0 0 auto;
+}
+.slick-slide .imageicon img {
+    display: inline-block;
+}
+/*=========================================================================================== #START TO FLIPBOX CSS =============================================================================================*/
+ .flipbm {
+     width: 100%;
+     height: 345px;
+     perspective: 1000px;
+}
+ .flipbi {
+     position: relative;
+     width: 100%;
+     height: 100%;
+     transition: transform 0.8s;
+     transform-style: preserve-3d;
+}
+ .flipbm:hover .flpx {
+     transform: rotateX(180deg);
+}
+ .flipbm:hover .flpy {
+     transform: rotateY(180deg);
+}
+ .flipboxf, .flipboxb {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     -webkit-backface-visibility: hidden;
+    /* Safari */
+     backface-visibility: hidden;
+}
+ .flipboxb{
+    position: relative;  
+}
+ .flipbx{
+     transform: rotateX(180deg);
+}
+ .flipvy{
+     transform: rotateY(180deg);
+}
+ .fspan{
+     top: -30px;
+}
+/*=========================================================================================== #START TO SINGLE IMAGE CSS =============================================================================================*/
+ .single_image{
+     position:relative;
+}
+ .single_image:before{
+     content: '';
+     position: absolute;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     opacity: 0.5;
+     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+     z-index:1;
+}
+/* single_line_option */
+ .single_line_option{
+     position:relative;
+}
+ .single_image_line {
+     position: absolute;
+     opacity: 1;
+     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+     -webkit-transition:.5s;
+     transition: .5s;
+     z-index: 99;
+}
+ .single_line_option:hover .single_image_line{
+     opacity: 1;
+     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+ .image_line_top, .image_line_bottom {
+     width: 0;
+     height: 5px;
+     left: -60px;
+}
+ .single_line_option:hover .image_line_top, .single_line_option:hover .image_line_bottom{
+     width: calc(100% + 110px);
+}
+ .image_line_top{
+     top: 0px;
+}
+ .image_line_bottom{
+     bottom: 0px;
+}
+ .image_line_left, .image_line_right{
+     height: 0;
+     width: 5px;
+     top: -60px;
+}
+ .single_line_option:hover .image_line_left, .single_line_option:hover .image_line_right{
+     height: calc(100% + 110px);
+}
+ .image_line_left{
+     left: 0px;
+}
+ .image_line_right{
+     right: 0px;
+}
+ .witr_tx_ovei_title {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 9;
+    padding: 10px 15px;
+}
+ .witr_tx_ovei_title h2 {
+     margin-bottom: 5px;
+}
+ .witr_tx_ovei_title p {
+     margin: 0;
+}
+ .image_line_top, .image_line_bottom {
+     background: -webkit-linear-gradient(left, rgba(117, 161, 251, 0), var(--brcolor), rgba(117, 161, 251, 0));
+     background: linear-gradient(to right, rgba(117, 161, 251, 0), var(--brcolor), rgba(117, 161, 251, 0));
+}
+ .image_line_left, .image_line_right{
+     background: -webkit-linear-gradient(bottom, rgba(117, 161, 251, 0), var(--brcolor), rgba(117, 161, 251, 0));
+     background: linear-gradient(to top, rgba(117, 161, 251, 0), var(--brcolor), rgba(117, 161, 251, 0));
+}
+/* slick and swiper Slider shape*/
+ .wirt_ani_slick_image {
+     position: absolute;
+     left: -3%;
+     top: -11%;
+     z-index:1;
+     animation: witr_movetb_box45 3s linear 2s infinite alternate running;
+}
+ .witr_not_ani{
+     animation: witr_abmovetb_box15 3s linear 2s infinite alternate running;
+}
+ @keyframes witr_abmovetb_box15{
+     0%{
+         transform: translateY(-40px);
+    }
+     100%{
+         transform: translateY(-20px);
+    }
+}
+/* witr Single Image animater*/
+ .single_img_ani img{
+     animation: single_img_ani 10s linear infinite alternate forwards;
+}
+ @keyframes single_img_ani {
+     0%, to {
+         border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
+    }
+     14% {
+         border-radius: 40% 60% 54% 46%/49% 60% 40% 51%;
+    }
+     28% {
+         border-radius: 54% 46% 38% 62%/49% 70% 30% 51%;
+    }
+     42% {
+         border-radius: 61% 39% 55% 45%/61% 38% 62% 39%;
+    }
+     56% {
+         border-radius: 61% 39% 67% 33%/70% 50% 50% 30%;
+    }
+     70% {
+         border-radius: 50% 50% 34% 66%/56% 68% 32% 44%;
+    }
+     84% {
+         border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
+    }
+}
+/*=========================================================================================== #START TO CAROUSEL IMAGE CSS =============================================================================================*/
+ .slide_items {
+     text-align: center;
+     padding: 0 15px;
+}
+ .slide_items a{
+     position: relative;
+     display: block;
+}
+ .slide_items a:before{
+     position: absolute;
+     content:"";
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     z-index:999;
+     transition:.5s;
+}
+ .slide_items img{
+     margin: auto;
+}
+/*=========================================================================================== #START TO PORTFOLIO CSS =============================================================================================*/
+ .portfolio_nav {
+     padding: 0px 0 10px;
+}
+.portfolio_nav ul {
+    padding-right: 0;
+}
+ .portfolio_nav ul li { 
+	 border: 1px solid var(--bdcolor);
+     border-radius: 5px;
+     cursor: pointer;
+     display: inline-block;
+     font-weight: 500;
+     margin: 0 5px 10px;
+     padding: 10px 20px;
+     position: relative;
+	 transition:.5s;
+}
+.portfolio_nav ul li:hover{
+    color: var(--white);
+    background: var(--brcolor);
+    border-color: var(--brcolor);
+}
+.pfcatcount {
+    position: absolute;
+    top: -15px;
+    right: 0;
+    z-index: 99;
+    background-color: var(--brcolor);
+  }
+  .prot_content p span a{
+    color: var(--white);
+  }
+/* PORTFOLIO */
+/* image css */
+.tx_pfthumb img {
+    display: block;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+}
+.tx_portfolio:hover .tx_pfthumb img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+/* icon css */
+.tx_pf_icon a {
+    margin: 0 1px;
+}
+/* text css */
+.tx_pf_content{
+    padding: 15px 20px;
+}
+.tx_pf_overley{
+    background-color:var(--bropacity);
+}
+/* portfiloi cat */
+.tx_pf_text span{
+    margin: 0 2px;
+}
+.tx_pf_text span a{
+    color: var(--white);
+}
+.tx_pf_text span a:hover{
+    color: var(--brcolor);
+}
+/* style 2 */
+.tx_pf_i2{
+    top: 32px;
+    left: 0;
+    opacity: 0;
+}
+.tx_portfolio:hover .tx_pf_i2 {
+    top: 0;
+    opacity: 1;
+}
+.tx_pft_s2{
+    box-shadow: 0 0 16px 8px rgb(242 242 242 / 80%);
+}
+.tx_pft_s2 span a{
+    color: var(--black);
+}
+/* style 3 */
+.tx_pf_s3:hover .boxtextposineer {
+    top: 39%;
+}
+.txbd_boxposlrb {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom:0;
+    z-index: 9999;
+    transition: .5s;
+    text-align: center;
+}
+.tx_pfc_s3{
+    bottom: -300px;
+}
+.tx_pf_s3:hover .tx_pfc_s3{
+    bottom:0; 
+}
+/* style 4 */
+.tx_pfc_s4 {
+    position: absolute;
+    top: 25%;
+    right: -100%;
+    background: var(--bropacity);
+    width: 75%;
+    transition: .5s;
+}
+.tx_pf_s4:hover .tx_pfc_s4{
+    right: 0;
+}
+.tx_pf_is4{
+    bottom:20px; 
+    right:30px; 
+    text-align:right;
+}
+/* style 5 */
+.tx_pf_s5 .boxposiltrb {
+    top: 27px;
+    transform: scale(0);
+}
+.tx_pf_s5:hover .boxposiltrb {
+    top: 0;
+    transform: scale(1);
+}
+
+ .nospace.col-xs-12, .allprt0{
+     padding: 0px;
+}
+ .allprt30{
+     margin-bottom:25px;
+}
+ .nospace .single_protfolio {
+     margin-bottom: 0px;
+}
+/*=========================================================================================== #START TO PORTFOLIO GELLARY CSS =============================================================================================*/
+/* portfolio gellary slides*/
+ .witr_single_pslide{
+     position:relative;
+     overflow: hidden;
+}
+ .witr_pslide_image{
+     overflow: hidden;
+     position:relative;
+}
+ .witr_pslide_image:before{
+     position:absolute;
+     content:'';
+     top:0;
+     left:0;
+     bottom:0;
+     right:0;
+     -webkit-transform: scale(0);
+     transform: scale(0);
+     -webkit-transition:.5s;
+     transition:.5s;
+     z-index:1;
+}
+ .witr_single_pslide:hover .witr_pslide_image img, .witr_single_pslide:hover .witr_pslide_image:before{
+     -webkit-transform: scale(1.2);
+     transform: scale(1.2);
+}
+ .witr_pslide .witr_pslide_custom {
+     bottom: auto;
+     top: 30px;
+     right: auto;
+     left: 30px;
+     -webkit-transform: scaleX(0);
+     transform: scaleX(0);
+}
+ .witr_pslide .witr_single_pslide:hover .witr_pslide_custom {
+     bottom: auto;
+     -webkit-transform: scaleX(1);
+     transform: scaleX(1);
+}
+ .witr_pslide .witr_pslide_custom a span {
+     width: 80px;
+     height: 80px;
+     line-height: 80px;
+     border-radius: 5px;
+     font-size: 30px;
+}
+ .witr_pslide_image img{
+     margin-right: auto;
+     margin-left: auto;
+     -webkit-transition:.5s;
+     transition:.5s;
+     width:100%;
+}
+ .ps1 .witr_content_pslide_text {
+     position: absolute;
+     bottom: -100px;
+     left: 30px;
+     right: 30px;
+     -webkit-transition:.5s;
+     transition:.5s;
+     opacity:0;
+     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+     z-index:2;
+     text-align:left;
+}
+ .ps1 .witr_single_pslide:hover .witr_content_pslide_text{
+     opacity:1;
+     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+     bottom: 30px;
+}
+ .witr_content_pslide_text h2 {
+     margin-bottom: 0;
+}
+ .witr_content_pslide_text p{
+}
+ .witr_content_pslide_text a i{
+}
+ .witr_content_pslide_text a {
+     display: inline-block;
+     margin-bottom: 0;
+}
+/* ps2 Slide */
+ .ps2.ps1 .witr_content_pslide_text {
+     position: absolute;
+     bottom: auto;
+     top:-100px;
+     left: 30px;
+     right: 30px;
+     -webkit-transition:.5s;
+     transition:.5s;
+}
+ .ps2.ps1 .witr_single_pslide:hover .witr_content_pslide_text{
+     top:25px;
+}
+ .witr_pslide_custom{
+     position: absolute;
+     bottom: -125px;
+     right: -15px;
+     z-index: 9;
+     -webkit-transition:.5s;
+     transition:.5s;
+}
+ .witr_single_pslide:hover .witr_pslide_custom{
+     bottom: -30px;
+}
+ .witr_pslide_custom a span{
+     width: 110px;
+     height: 110px;
+     line-height: 90px;
+     text-align: center;
+     display: inline-block;
+     font-size: 40px;
+     -webkit-transition:.5s;
+     transition:.5s;
+}
+/* ps3 Slide css */
+ .witr_pslide3 .witr_single_pslide {
+     margin-bottom: 100px;
+     overflow: inherit;
+}
+ .ps3.ps1 .witr_content_pslide_text {
+     bottom: -60px;
+     opacity: 1;
+     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+     box-shadow: 0px 0px 65px 0px var(--bshadow);
+     background: var(--white);
+     text-align: center;
+     padding: 20px 10px 45px;
+     border-radius: 5px;
+}
+ .ps3.ps1 .witr_single_pslide:hover .witr_content_pslide_text{
+     bottom: -60px;
+}
+ .ps3 .witr_content_pslide_text h2 a{
+     margin-bottom: 3px;
+}
+ .witr_pslide3 .witr_single_pslide:hover .witr_pslide_custom{
+     bottom: -20px;
+}
+ .witr_pslide3 .witr_pslide_custom {
+     bottom: -17px;
+     right: 50%;
+     -webkit-transform: translateX(50%);
+     transform: translateX(50%);
+}
+ .witr_pslide3 .witr_pslide_custom a span {
+     width: 45px;
+     height: 45px;
+     line-height: 45px;
+     font-size: 18px;
+     box-shadow: 0px 0px 65px 0px var(--bshadow);
+}
+/* witr_pslide4 css */
+ .witr_pslide4.witr_pslide3 .witr_single_pslide {
+     margin-bottom: 0px;
+     overflow: hidden;
+}
+ .witr_pslide4.ps3.ps1 .witr_content_pslide_text {
+     bottom: -170px;
+     padding: 40px 10px 15px;
+     border-radius: 0px;
+     left: 0;
+     right: 0;
+}
+ .witr_pslide4.ps3.ps1 .witr_single_pslide:hover .witr_content_pslide_text {
+     bottom: 0px;
+}
+ .witr_pslide4.witr_pslide3 .witr_pslide_custom {
+     bottom: auto;
+     top: -22px;
+     z-index: -1;
+}
+/* witr_pslide5 css */
+ .toggle_pslide {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+}
+ .witr_pslide5 .witr_single_pslide {
+     box-shadow: 0px 0px 20px 0px var(--bshadow);
+     border-radius: 5px;
+     margin-bottom: 12px;
+}
+ .witr_pslide5 .witr_pslide_image{
+     width: 100%;
+}
+ .witr_pslide5 .witr_content_pslide_text {
+     padding: 0 15px 0 15px;
+     width: 100%;
+}
+/* responsive */
+ @media (min-width: 768px) and (max-width: 991px) {
+     .toggle_pslide{
+         display: inherit;
+    }
+     .witr_pslide5 .witr_content_pslide_text {
+         padding: 10px 15px 15px 15px;
+    }
+}
+ @media (max-width: 767px) {
+    .swiper-button-prev, .swiper-button-next {
+        display: none;
+    }    
+     .ps1 .witr_content_pslide_text {
+         padding: 0 10px 20px;
+    }
+     .witr_content_pslide_text h2 {
+         font-size: 19px;
+    }
+     .ps1 .witr_pslide_btnb {
+         float: none;
+         margin-top: 0;
+    }
+     .toggle_pslide {
+         display: inherit;
+    }
+     .witr_pslide5 .witr_content_pslide_text {
+         padding: 10px 15px 15px 15px;
+    }
+}
+/*=========================================================================================== #START TO CALL TO ACTION =============================================================================================*/
+/*== Title Css ==*/
+ .witr_6 .pkcall_toac p, .witr_5 .pkcall_toac p{
+     width: 75%;
+     margin: auto;
+}
+ .pkcall_toac h5{
+     padding-bottom:7px;
+}
+ .pkcall_toac h2, .pkcall_toac h3{
+     padding:4px 0px;
+}
+ .muzium_video_inner h4{
+     margin-top:10px;
+}
+/*============= call to action =============*/
+ .all_cal_color .hlight{
+     margin:7px 0;
+     padding:0px;
+}
+ .all_cal_color a{
+     -webkit-transition: 1s;
+     transition:1s;
+     overflow: hidden;
+}
+ .cal_to_toggole {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+}
+ .pkcall_toac.col_content_width_100{
+     width: 100%;
+}
+ .muzium_button.no_margin {
+     width: 60%;
+}
+ .muzium_button.no_margin a{
+     margin-right: 0px;
+}
+/*============= video icon ==============*/
+ .muzium_video_inner{
+     position: relative;
+     text-align: center;
+}
+ @-webkit-keyframes witr_video_ripple{
+     70% {
+        box-shadow: 0 0 0 75px rgba(255, 255, 255, 0);
+    }
+     100% {
+        box-shadow: 0 0 0 0px rgba(255, 255, 255, 0);
+    }
+}
+ @keyframes witr_video_ripple{
+     70% {
+        box-shadow: 0 0 0 75px rgba(255, 255, 255, 0);
+    }
+     100% {
+        box-shadow: 0 0 0 0px rgba(255, 255, 255, 0);
+    }
+}
+/*=========== Style 11 ============*/
+ .witr_11{
+     position:relative;
+}
+ .witr_col_image{
+     position:relative;
+}
+ .witr_col_image:before{
+     position:absolute;
+     content:"";
+     width:100%;
+     height:100%;
+}
+ .witr_col_image img {
+     width: 100%;
+}
+ .muzium_video11{
+     position:absolute;
+     top:50%;
+     left:50%;
+     -webkit-transform: translateX(-50%) translateY(-50%);
+     transform: translateX(-50%) translateY(-50%);
+}
+ @media (max-width: 767px) {
+    /* call to action */
+     .cal_to_toggole .text-left, .cal_to_toggole .text-right{
+         text-align:center !important;
+    }
+     .cal_to_toggole {
+         display: inline-block;
+    }
+     .muzium_button.no_margin {
+         width: 100%;
+    }
+}
+/*=========================================================================================== #START TO COUNTER CSS =============================================================================================*/
+ .witr_counter_icon i {
+     font-size: 30px;
+     margin-bottom: 12px;
+}
+ .witr_contx .counter, .witr_contx span {
+     display: inline-block;
+     font-size: 39px;
+     font-weight: 700;
+}
+ .witr_contx .counter, .witr_contx h2, .witr_contx span {
+     margin-bottom: 10px;
+     line-height: 1;
+}
+ .wirt_new_iner {
+     float: left;
+     margin-right: 20px;
+}
+ .wirt_new_content {
+     overflow: hidden;
+}
+/*====== style 3-4 ======*/
+ .witr_counter_6.witr_counter_single{
+     padding: 28px 25px 30px;
+     box-shadow: 0px 5px 20px 0px var(--bshadow);
+}
+ .witr_counter_6 .wirt_new_iner {
+     padding: 30px 0px 32px;
+     border-radius: 5px;
+     width: 29%;
+     text-align: center;
+     -webkit-transform: skewY(356deg);
+     transform: skewY(356deg);
+}
+ .witr_counter_4, .single_counter {
+     position:relative;
+     padding: 32px 0;
+     text-align: center;
+     border-top: 2px solid #324452;
+     border-bottom: 2px solid #324452;
+     transition:.5s;
+}
+ .witr_counter_4 {
+     border: 1px solid var(--bdcolor);
+}
+ .single_counter::before {
+     content: "";
+     left: 0;
+     bottom: 0;
+     right: 0;
+}
+ .single_counter::after {
+     content: "";
+     left: 0;
+     top: 0;
+     right: 0;
+}
+ .single_counter::before, .single_counter::after {
+     border-left: 2px solid #324452;
+     border-right: 2px solid #324452;
+     height: 40%;
+     position: absolute;
+}
+ .single_counter:hover h2, .witr_counter_4:hover h2, .single_counter:hover h3, .witr_counter_4:hover h3, .single_counter:hover i, .witr_counter_4:hover i, .single_counter:hover span, .witr_counter_4:hover span {
+     color:var(--white);
+}
+ .single_counter:hover:before, .single_counter:hover:after, .single_counter:hover, .witr_counter_4:hover {
+     border-color: var(--brcolor);
+}
+/*=========================================================================================== #START TO TABS CSS =============================================================================================*/
+ .witr_adv_tab_area {
+     text-align: left;
+     display: flex 
+}
+ .witr_taba_style1 .nav-tabs {
+     border: 0;
+     -ms-flex-pack: distribute;
+     justify-content: space-around;
+}
+ .witr_taba_style1 .nav-tabs .nav-item {
+     text-align: center;
+}
+ .witr_taba_style1 .nav-tabs .nav-link {
+     margin-right: 10px;
+     margin-bottom: 15px;
+     border: 0;
+     border-radius: 5px;
+     padding: 20px 25px;
+     position: relative;
+     box-shadow: 0px 0px 25px 2px var(--bshadow);
+}
+ .witr_taba_style1 .tx_topb_row-reverse .nav-tabs .nav-link {
+     margin-right: 0;
+}
+ .witr_taba_style1 .nav-tabs span {
+     display: block;
+     float: left;
+     margin: 0 10px 
+}
+ .nav-link strong{
+     display: inline-block;
+}
+ .nav-tabs img, .witr_taba_style1 .nav-tabs i{
+     position: relative;
+     font-size:24px;
+}
+ .witr_adv_tab_content {
+     margin: 10px 10px 20px 
+}
+ .nav-tabs .nav-link:hover, .witr_taba_style1 .nav-tabs .nav-item.show .nav-link, .witr_taba_style1 .nav-tabs .nav-link.active {
+     background: var(--brcolor);
+     color: var(--white);
+     border-color:var(--brcolor);
+}
+ .tx_topb_row,.tx_topb_row-reverse {
+     flex-basis: 230px;
+}
+ @media (max-width: 767px) {
+     .witr_adv_tab_area {
+         display:inherit 
+    }
+     .witr_adv_tab_content {
+         margin: 0 
+    }
+     .witr_taba_style1 .nav-tabs .nav-link {
+         margin-right: 0 
+    }
+     .nav-tabs {
+         justify-content: center!important 
+    }
+     .tab_content.text-left {
+         text-align: center!important 
+    }
+}
+ @media (min-width: 768px) and (max-width:991px) {
+     .witr_adv_tab_area {
+         display:inherit 
+    }
+}
+/*=========================================================================================== #START TO VIDEO CSS =============================================================================================*/
+ .video-overlay {
+     padding: 70px 0px 50px;
+}
+ .videowh {
+     display: inline-block;
+     margin-bottom: 20px;
+     width: 80px;
+     height: 80px;
+     line-height: 78px;
+     border-radius: 100%;
+     padding: 0;
+     animation: witr-shadow 1s linear infinite;
+}
+ @-webkit-keyframes witr-shadow {
+     0% {
+         box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3), 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3);
+    }
+     100% {
+         box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(255, 255, 255, 0);
+    }
+}
+ @keyframes witr-shadow {
+     0% {
+         box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3), 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3);
+    }
+     100% {
+         box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.3), 0 0 0 30px rgba(255, 255, 255, 0);
+    }
+}
+/*=========================================================================================== #START TO PRICING CSS =============================================================================================*/
+ .tpri {
+     border-radius: 5px;
+     box-shadow: 0px 0px 30px 0px var(--bshadow);
+     text-align: center;
+     padding: 0 0 20px;
+}
+ .muzium-star-rating--align-left .tpri, .muzium-star-rating--align-right .tpri {
+     padding: 20px 30px 20px;
+}
+ .tpr_ic {
+     padding: 25px 0 10px;
+     font-size: 40px;
+}
+ .tpri .tprribbon {
+     position: absolute;
+     right: -40px;
+     top: 19px;
+     padding: 7px 20px;
+     width: 160px;
+     text-align: center;
+     -webkit-transform: rotate(45deg);
+     transform: rotate(45deg);
+}
+ .tpr_offer {
+     font-weight: 700;
+     text-decoration: line-through;
+}
+ .tpr_curn {
+     margin-bottom: 0;
+     padding: 5px 0 0;
+}
+ .tpr_curn span {
+     font-size: 16px;
+     margin-right: 5px;
+}
+ .tprbtntx {
+     margin-top: 10px;
+}
+/* pricing list css */
+ .witri_texti_list{
+     margin: 20px 0 30px;
+}
+ .witri_texti_list ul {
+     padding: 0;
+     margin: 0;
+}
+ .witri_texti_list ul li {
+     list-style:none;
+     margin-bottom: 17px;
+}
+ .witri_texti_list ul li.off{
+     text-decoration: line-through;
+}
+ .witri_texti_list ul li:nth-child(odd){
+}
+ .witri_texti_list ul li:nth-child(even){
+}
+ .witri_texti_list ul li i{
+     margin-right:10px;
+}
+/* style 2 */
+ .trppdd{
+     padding: 7px 0;
+}
+/* style 3 */
+ .tpr_con3 span+span {
+     display: block;
+}
+ .tpr_con3 .tpr_cua{
+     width: 150px;
+     height: 150px;
+     display: table;
+     margin: 15px auto 15px;
+}
+ .tpr_con3 .tpr_curn {
+     display: table-cell;
+     vertical-align: middle;
+     border-radius: 100%;
+     text-align: center;
+}
+/* style 4 */
+ .tpr_con4 {
+     border-bottom: 1px solid var(--bdcolor);
+     padding-bottom: 20px;
+     padding-top: 30px;
+}
+ .tpr_con4 span+span {
+     display: block;
+}
+ .tpri .tpr_con4 .tprribbon {
+     right: 0;
+     top: 0;
+     transform: rotate(0deg);
+     left: 0;
+     margin: auto;
+}
+/* style 5 */
+ .tpr_con5 .tprtit {
+     margin-bottom: 0;
+     width: 60%;
+     border-radius: 30px;
+     margin: 45px auto;
+     text-align: center;
+}
+ .tpr_con5 .tprt{
+     position:relative;
+}
+ .tpr_con5 .tprt::before {
+     position: absolute;
+     content: '';
+     width: 100%;
+     height: 1px;
+     background: var(--bdcolor);
+     left: 0;
+     right: 0;
+     top: 50%;
+     z-index: -1;
+}
+ .muzium-star-rating--align-left .tpr_con5 .tprtit, .muzium-star-rating--align-left .tpr_con3 .tpr_cua {
+     margin-left:0;
+}
+ .muzium-star-rating--align-right .tpr_con5 .tprtit, .muzium-star-rating--align-left .tpr_con3 .tpr_cua{
+     margin-right:0;
+}
+/* style 7 */
+ .tpr_con7 {
+     padding:30px 25px;
+}
+ .tpr_con7 .tprtit,.tpr_con7 .tpr_curn{
+     color:var(--white);
+}
+ .tpr_con7i{
+     position: relative;
+     top: -50px;
+     left: 44px;
+}
+ .tpr_con7i i {
+     padding-top: 0;
+     display: inline-block;
+     width: 100px;
+     height: 100px;
+     line-height: 100px;
+     background: var(--white);
+     text-align: center;
+     border-radius: 100%;
+     box-shadow: 0 0 30px 0 var(--bshadow);
+     font-size:40px;
+}
+ .tproinner {
+     display: flex;
+     justify-content: end;
+     margin-top: 28px;
+}
+ .tpr_con7 .tprribbon {
+     top: 0;
+     transform: rotate(0deg);
+}
+ .prstyl7 .witri_texti_list {
+     margin: 0 0 30px;
+}
+/*=========================================================================================== #START TO ACCORDING CSS =============================================================================================*/
+/* accordion area css */
+ .accordion_area .card-header.witr_ac_card {
+     background: none !important;
+     padding: 0;
+     border-bottom: 0;
+     text-align: left;
+}
+ .witr_ac_card i {
+     margin-right: 10px;
+     font-size: 20px;
+}
+ .accordion_area .card-2{
+     margin-bottom: 22px;
+}
+ .accordion_area .card-2 p {
+     padding: 10px 15px 0px;
+}
+ .witr_ac_style {
+     padding-left: 30px;
+     font-size: 17px;
+     font-weight: 600;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     padding: 11px 15px;
+     -webkit-transition: .5s;
+     transition: .5s;
+}
+ .witr_ac_style:before {
+     position: absolute;
+     content: '\e64b';
+     right: 20px;
+     font-family: themify !important;
+     font-weight: 400;
+}
+ .active .witr_ac_style:before {
+     content: '\e648';
+}
+ .card-body ul{
+}
+ .card-body ul li{
+     margin-left: 18px;
+     margin-bottom: 4px;
+}
+.witr_ac_style:hover, .active .witr_ac_style{
+     background: var(--brcolor);
+     color:var(--white);
+}
+/*=========================================================================================== #START TO CLASSIC BUTTON CSS =============================================================================================*/
+ .witr_classic_button_area {
+     text-align: left;
+}
+ .btn_none{
+     display:none;
+}
+ .btn_block{
+     display:block;
+}
+ .btn_sh_area{
+     margin-top:30px;
+}
+ .btn_sh_area p {
+     font-size: 17px;
+     font-weight: 700;
+}
+ .btn_sh_area i {
+     font-size: 21px;
+     margin: 0px 5px;
+     cursor: pointer;
+}
+ .a_active i {
+     color: var(--brcolor);
+}
+/*=========================================================================================== #START TO BLOG CSS =============================================================================================*/
+/* blog css */
+ .wblogpart{
+     position:relative;
+     box-shadow: 0px 0px 20px 0px var(--bshadow);
+}
+/* image css */
+ .wblogthumb{
+     position:relative;
+     overflow: hidden;
+}
+ .wblogthumbinner{
+     -webkit-transition: .5s;
+     transition: .5s;
+}
+ .wblogthumbinner img{
+     width:100%;
+}
+ .wblogthumbinner a{
+     position:relative;
+     display:block;
+}
+ .wblogthumbinner a:before {
+     position:absolute;
+     content:'';
+     top:0;
+     left:0;
+     bottom:0;
+     right:0;
+     width:100%;
+     height:100%;
+     background: rgba(0, 0, 0, 0.5);
+     -webkit-transform: scale(0);
+     transform: scale(0);
+     -webkit-transition: .5s;
+     transition:.5s;
+}
+ .wblogpart:hover .wblogthumbinner, .wblogpart:hover .wblogthumbinner a:before{
+     -webkit-transform: scale(1.2);
+     transform: scale(1.2);
+}
+/* overlay meta css */
+ .wblogovermeta {
+     position: absolute;
+     left: 20px;
+     top: 20px;
+     z-index: 999;
+}
+ .wblogovermeta span, .wblogovermeta span a {
+     display: inline-block;
+     color: var(--white);
+     background: var(--brcolor);
+     padding: 2px 10px;
+     border-radius: 5px;
+     font-size: 14px;
+     text-align:center;
+}
+ .wblogovermeta .post-categories {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     display: inline-block;
+}
+/* icon overlay css */
+ .wblogicon {
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     text-align: center;
+     z-index: 999;
+     opacity: 0;
+     transition: .5s;
+     transform: translateX(-50%) translateY(-50%);
+}
+ .wblogicon a {
+     border-radius: 50%;
+     background: var(--brcolor);
+     color: var(--white);
+     display: inline-block;
+     height: 45px;
+     line-height: 45px;
+     width: 45px;
+}
+ .wblogpart:hover .wblogicon{
+     opacity:1;
+}
+/* overlay title */
+ .wblogtitleov {
+     bottom: 0;
+     margin: 0px;
+     left: 0;
+     padding: 15px;
+     right: 0;
+     transition: .5s;
+     position: absolute;
+     text-align: center;
+     z-index: 9999;
+	 background: rgba(var(--brrgb), 0.85); 
+}
+ .wblogtitleov a{
+     color:var(--white);
+}
+/* content css */
+ .wblogcontent {
+     padding: 15px 20px 24px;
+     overflow: hidden;
+     position: relative;
+}
+/* position class */
+ .wblogcontentposi {
+     position: absolute;
+     left: 10px;
+     right: 10px;
+     top: 72%;
+     z-index: 99999;
+     background: var(--white);
+}
+/* post meta css call by blog post meta css */
+ .wblogmeta {
+     display: inherit;
+}
+ .wblogmeta span{
+}
+ .wblogmeta span i{
+}
+/* botom meta */
+ .wbmetabutton {
+     padding-top: 15px;
+     padding-bottom: 0;
+     border-top: 1px solid #f1f1f1;
+     margin-top: 15px;
+}
+/* meta position class */
+ .wblogmetaposi {
+     position: absolute;
+     left: 10px;
+     right: 10px;
+     z-index: 99999;
+     top: -26px;
+     background: var(--white);
+     box-shadow: 0px 2px 6px 0px #f5f2f2;
+     padding: 10px 10px;
+     z-index: 999999;
+}
+ .metashowcp{
+     padding: 34px 15px 24px;
+     overflow: inherit;
+}
+/* title css */
+ .wblogcontent .wblogtitle{
+     margin-bottom:10px;
+}
+/* pragraph css */
+ .wblogcontent p{
+     margin-bottom:14px;
+}
+/* button and avadar css css */
+ .wblogbtn {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+/* author */
+ .wblogbtn img {
+     border-radius: 100%;
+}
+/* icon right */
+ .wbriconoverhidd {
+     position: relative;
+     overflow: hidden;
+}
+ .wblogrighticon{
+     bottom: 0px;
+     position: absolute;
+     right: 24px;
+}
+ .wblogrighticon a{
+     position: relative;
+     z-index: 1;
+     color:var(--brcolor);
+     font-size:18px;
+}
+ .wblogrighticon a::before {
+     content: '';
+     position: absolute;
+     height: 110px;
+     width: 110px;
+     border: 2px solid #f7f7f7;
+     bottom: -78px;
+     z-index: -1;
+     transform: rotate(-35deg);
+     right: -38px;
+     border-radius: 0px 20px;
+     transition: .5s;
+}
+ .wblogpart:hover .wblogrighticon a{
+     color:var(--white);
+}
+ .wblogpart:hover:hover .wblogrighticon a::before{
+     background:var(--brcolor);
+}
+/*=========================================================================================== #START TO EVENT CSS - all event css same as blog style. only extra event css here =============================================================================================*/
+ .disblk.wblogmeta span {
+     display:block;
+}
+ .iiconh.wblogovermeta span i{
+     display:none;
+}
+.tx_row_reverse:nth-child(even){
+    flex-direction: row-reverse;
+}
+.tx_row_reverse:nth-child(odd) .col-lg-5{
+    padding-left: 0;
+}
+.tx_row_reverse:nth-child(even) .col-lg-5{
+    padding-right: 0;
+}
+.tx_row_reverse:nth-child(even) .text-end{
+        text-align: left!important;
+}
+/*=========================================================================================== #START TO TEAM CSS =============================================================================================*/
+ .tteam {
+     overflow: hidden;
+     box-shadow: 0px 5px 4px 0px var(--bshadow);
+}
+ .tteamcon {
+     padding: 18px 10px 23px;
+}
+ .teamtit {
+     margin-bottom: 0px;
+}
+ .tteamcon p{
+}
+ .tteamsocial {
+     margin-top: 10px;
+}
+ .tteamsocial a {
+     color: #ababab;
+     border:1px solid #ababab;
+     display: inline-block;
+     width: 35px;
+     height: 35px;
+     border-radius: 50%;
+     line-height: 35px;
+     text-align: center;
+     margin: 0 3px;
+}
+ .tteam:hover .wblogicon{
+     opacity: 1;
+}
+/* 2 */
+ .tteam2 .txbdtitleposi .tteamsocial {
+     padding: 21px 10px;
+     margin:0;
+}
+ .tteam2 .boxtextposi .tteamcon2 .tteamsocial a {
+     color:var(--white);
+     border-color:var(--white);
+}
+ .tteam2 .boxtextposi .tteamcon2 .tteamsocial a:hover {
+     border-color:var(--brcolor);
+}
+ .tteam8 .tteamcon2 .tteamsocial a {
+     border-color:var(--white);
+     color:var(--white);
+}
+/* 3 */
+ .tteam3:hover .boxposiltrb {
+     top:-100%;
+}
+ .tteam3 .txbdtitleposi {
+     bottom: -100%;
+}
+ .tteam3:hover .txbdtitleposi {
+     bottom: 0;
+}
+/* 4 */
+ .tteam4 .txbdimageinner {
+     z-index:2;
+     transition:.5s;
+}
+ .tteam4 .boxtextposi {
+     z-index:1;
+}
+ .tteam4:hover .txbdimageinner {
+     -webkit-transform: scale(0);
+     transform: scale(0);
+     opacity: 0;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+/* 6 */
+ .tteam6:hover .boxtextposbl{
+     left:15px;
+     bottom:15px;
+}
+ .tteam6 .tteamcon2 span {
+     padding: 5px 30px;
+}
+/* 9 */
+ .ttiocn9p {
+     left:auto;
+     top:auto;
+     right: 20px;
+     bottom: 25px;
+     opacity:1;
+     transform:none;
+}
+ .ttiocn9 {
+     bottom:-100%;
+}
+ .tteam9:hover .ttiocn9 {
+     bottom: 93px;
+}
+ .ttiocn9 a {
+     display: block;
+     border:none;
+     color:var(--white);
+     margin-bottom: 3px;
+}
+/* 10 */
+ .tteam10{
+     padding-bottom:23px;
+}
+ .tteam10 .txbdbfltrb::before {
+     left: 100%;
+}
+ .tteam10:hover .txbdbfltrb::before{
+     left: 0;
+}
+ .ttiocn10 {
+     bottom:100%;
+}
+ .ttiocn10 {
+     right: 40px;
+}
+ .tteam10:hover .ttiocn10 {
+     bottom:58px;
+}
+ .ttiocn10p {
+     right: 40px;
+     bottom: 135px;
+}
+ .ttiocn10p a{
+     border: 5px solid #e6ebf8;
+     line-height: 35px;
+     background:var(--white);
+     color:var(--brcolor);
+}
+ .ttiocn10p a:hover{
+     color:var(--white);
+     background:var(--brcolor);
+}
+ .tteam10:hover .ttiocn10p {
+     bottom: 42px;
+}
+ .tteamcon10 {
+     position: relative;
+     border-radius: 5px;
+     padding: 15px 30px 13px;
+     margin: 0 20px;
+     box-shadow: 0px 0px 30px 0 rgba(42,67,113,.15);
+     margin-top: -58px;
+     text-align: left;
+     background: var(--white);
+     z-index: 1;
+}
+/* 11 */
+ .tteamp11 {
+     left: 0;
+     background: var(--white);
+     width: 90%;
+     margin: auto;
+     bottom: -60px;
+}
+ .tteam11:hover .tteamp11 {
+     bottom: 0;
+     background:var(--brcolor);
+}
+ .tteam11:hover .tteamsocial a{
+     background: var(--white);
+     border-color: var(--white);
+     color:var(--brcolor);
+}
+ .tteam11 .ticonp11 a:hover{
+     background: var(--brcolor);
+     border-color: var(--brcolor);
+     color:var(--white);
+}
+ .tteam12 .boxtextposi {
+     height: 90%;
+     width: 90%;
+     margin:auto;
+}
+ .tteam12 .teamtit {
+     margin-left: -30px;
+}
+ .tteam12:hover .teamtit{
+     margin-left:0;
+}
+ .tteam12:hover .opacity0{
+     opacity:1;
+}
+/*=========================================================================================== #START TO SOCIALICONS CSS =============================================================================================*/
+ .witr_siconw ul{
+    padding-left: 0;
+}
+ .witr_siconw ul li{
+     list-style: none;
+}
+ .witr_siconw ul li a{
+     display: inline-block;
+     margin-right: 5px;
+}
+/*=========================================================================================== #START TO TEXTEDIT WIDGET CSS =============================================================================================*/
+ .witr_text_widget {
+     text-align: left;
+}
+ .witrtxwl {
+     margin-top: 10px;
+}
+ .witrtxwl ul {
+     margin: 0;
+     padding: 0;
+}
+ .witrtxwl ul li a, .witrtxwl ul li {
+     list-style: none;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-align: baseline;
+     -ms-flex-align: baseline;
+     align-items: baseline;
+     padding: 3px 0;
+}
+ .witr_list_icon {
+     margin-right: 10px;
+}
+/*=========================================================================================== #START TO TESTIMONIAL CSS =============================================================================================*/
+ .tsitem {
+     box-shadow: 0 5px 10px 0 rgb(240 241 243);
+     padding: 30px 15px 30px;
+     position: relative;
+     text-align: left;
+    /* padding: 0 15px;
+     */
+}
+ .pmt{
+     padding-top: 60px;
+     margin-top: 60px;
+}
+ .pmb{
+     padding-bottom: 60px;
+     margin-bottom: 60px;
+}
+ .tsimgpt {
+     position: absolute;
+     left: 15px;
+     top: -40px;
+}
+ .tsimgpb {
+     position: absolute;
+     left: 15px;
+     bottom: -40px;
+}
+ .tstitle{
+     margin-bottom:5px;
+}
+ .tsdflex {
+     margin: 7px 0;
+}
+ .terevtx {
+     margin-left: 15px;
+}
+ .tesspanf {
+     font-size: 16px;
+     font-weight: 400;
+}
+ .tsst4{
+     margin-bottom: 15px;
+}
+ .tsmt{
+     margin-top: 15px;
+}
+ .tsimg-mr25 {
+     margin-right: 25px;
+}
+ .tsst4 .tesspanf {
+     margin-top: 4px;
+}
+ .tsst5 {
+     position: relative;
+     box-shadow: 0px 0px 20px 0px var(--bshadow);
+     background: var(--white);
+     border-radius: 5px;
+     padding: 50px 20px 50px;
+     margin-bottom: 35px;
+}
+ .tsst5:after {
+     position: absolute;
+     content: '';
+     left: 50%;
+     bottom: -36px;
+     border-radius: 15px;
+     width: 50px;
+     height: 50px;
+     background: var(--white);
+     transform: rotate(45deg) translateX(-50%);
+     z-index: -1;
+     box-shadow: 0px 2px 29px 0px var(--bshadow);
+}
+ .tsst5 b {
+     font-size: 100px;
+     color: var(--bropacity);
+     position: absolute;
+     left: 50%;
+     transform: translateX(-50%) translateY(-50%);
+     top: 50%;
+}
+ .tsimauto img{
+     margin-left:auto;
+     margin-right:auto;
+}
+ .pwidth{
+     padding:15px 80px;
+}
+ .ptstitmt{
+     margin-top:5px;
+}
+ .busi_testiSlider{
+     position: relative;
+     margin: 0;
+     padding: 0 0 15px;
+}
+ .busi_singleNav{
+     left: 0;
+     right: 0;
+     width: 470px;
+     height: auto;
+     padding: 0;
+     margin: auto;
+}
+/*=========================================================================================== #START TO CIRCLE CSS =============================================================================================*/
+/* circle progress */
+ .witr_circle_area{
+     text-align:center;
+}
+ .witr_cp_class{
+     position:relative;
+}
+ span.witr_cir_text {
+     position: absolute;
+     content: "";
+     left: 50%;
+     top: 50%;
+     font-size: 20px;
+     -webkit-transform: translateX(-50%) translateY(-50%);
+     transform: translateX(-50%) translateY(-50%);
+     color:#7c7c7c;
+     font-weight:700;
+}
+ span.witr_cir_text:first-letter {
+     font-size: 0px;
+}
+ .tx_first_letter span.witr_cir_text:first-letter {
+     font-size: 25px;
+}
+ .witr_circle_title {
+     margin-top: 10px;
+}
+/* responsive */
+ @media (min-width: 992px) and (max-width: 1199px) {
+     .witr_circal_r {
+         margin-left: 18px;
+    }
+     .witr_circal_r h6 {
+         font-size: 15px;
+    }
+    /* column */
+     .witr_wid_col .elementor-column.elementor-col-20, .witr_wid_col .elementor-column[data-col="20"]{
+         width:33.33% !important;
+    }
+}
+/*=========================================================================================== #START TO SCHEDULE CSS =============================================================================================*/
+ .txbd_event_schedule {
+     display: flex;
+     align-items: center;
+     box-shadow: 0 0 20px rgb(0 0 0 / 9%);
+     background: var(--white);
+     border-radius: 10px;
+}
+ .txbd_event_schedule .col-lg-4{
+     padding-left:0;
+}
+ .txbd_event_schedule_thumb img {
+     width: 100%;
+     border-radius: 10px 0 0 10px;
+}
+ .txbd_event_schedule_list ul {
+     margin-bottom: 5px;
+     padding: 0;
+}
+ .txbd_event_schedule_list ul li {
+     list-style: none;
+     font-size: 15px;
+     display: inline-block;
+     margin-right: 10px;
+}
+ .txbd_event_schedule_list ul li i {
+     margin-right: 7px;
+}
+/* responsive */
+ @media (max-width: 767px) {
+     .txbd_event_schedule_thumb img {
+         border-radius: 10px;
+         margin-bottom: 15px;
+    }
+     .txbd_event_schedule .col-lg-4{
+         padding-left:15px;
+    }
+}
+/*=========================================================================================== #START TO IMAGE GELLARY CSS =============================================================================================*/
+ .witr_down_gallery, .single_gallery_thumb {
+     position: relative;
+}
+ .witr_down_gallery::before, .single_gallery_thumb::before {
+     position: absolute;
+     content: "";
+     width: 100%;
+     height: 100%;
+     background: var(--bshadow);
+}
+ .witr_gallery_title {
+     position: absolute;
+     bottom: 35px;
+     left: 0;
+     right: 0;
+     text-align: center;
+     z-index: 1;
+}
+ .witr_down_gallery img{
+     width:100% 
+}
+/* left gallery */
+ .twr_gallery_height {
+     height: 100px;
+     margin-top: 10px;
+}
+.witr_down_gallery {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+ .twr_gallery_height.margin_top_0 {
+     margin-top: 0px;
+     margin-bottom: 10px;
+}
+ .gallery_left .col-lg-2{
+     padding-right: 0px;
+}
+ .gallery_right .col-lg-2{
+     padding-left: 0px;
+}
+ .size_gallery_height {
+     height: 470px;
+     z-index: 9;
+     overflow-y: scroll;
+}
+/* responsive */
+ @media (min-width: 768px) and (max-width: 991px) {
+     .twr_gallery_height {
+         height: auto;
+    }
+}
+ @media (max-width: 767px) {
+     .twr_gallery_height {
+         height: auto;
+    }
+}
+/*=========================================================================================== #START TO LIST ELEMENT CSS =============================================================================================*/
+ .witrlistw ul{
+     padding:0;
+}
+ .witrlistw ul li{
+     list-style:none;
+}
+ .witrlistw ul li span, .witrlistw ul li a {
+     display: block;
+     padding: 8px 7px;
+     margin-bottom: 1px;
+}
+ .witrlistw ul li span i, .witrlistw ul li a i{
+     display:inline-block;
+     margin-top: 4px;
+}
+/*=========================================================================================== #START TO SOCIAL FEED ELEMENT CSS =============================================================================================*/
+ .snigle_news_feed{
+     position:relative;
+     box-shadow: 0px 0px 30px 0px var(--bshadow);
+     padding: 30px 30px 20px;
+     border-radius:5px;
+     -webkit-transition:1s;
+     transition:1s;
+     background: var(--white);
+}
+ .snigle_news_feed i{
+     font-size: 30px;
+     display: inline-block;
+}
+ .snigle_news_feed i, .snigle_news_feed img{
+     float: left;
+     margin-top: 5px;
+}
+ .news_feed_title {
+     overflow: hidden;
+     margin-left: 15px;
+     display: inline-block;
+}
+ .news_feed_title h2 {
+     margin-bottom: 5px;
+}
+ .news_feed_title h3 {
+     margin-bottom: 0;
+     font-size: 20px;
+     font-weight: 500;
+}
+/* icon */
+ .witr_feed_icons {
+     position: absolute;
+     top: 50%;
+     right: 6px;
+     -webkit-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+}
+ .witr_feed_icons span{
+     display: inline-block;
+     font-size: 28px;
+     -webkit-transition:.5s;
+     transition:.5s;
+}
+/*=========================================================================================== #START TO CASE STUDY CSS =============================================================================================*/
+ .witr_case{
+     position: relative;
+     overflow: hidden;
+     padding-bottom: 45px;
+     margin-bottom:20px;
+}
+ .witr_case2{
+     padding-bottom: 95px;
+}
+ .witr_case_image{
+     overflow: hidden;
+     position:relative;
+}
+ .witr_case_image:before {
+     position: absolute;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 0%;
+     content: "";
+     -webkit-transition: .5s;
+     transition: .5s;
+     background: var(--bropacity);
+}
+ .witr_case_image img{
+     width: 100%;
+}
+ .witr_case:hover .witr_case_image:before{
+     height:100%;
+}
+ .witr_content_casem {
+     padding: 21px 15px 26px;
+     position: absolute;
+     bottom: -80px;
+     left: 15px;
+     margin: auto;
+     -webkit-transition: .5s;
+     transition: .5s;
+     right: 15px;
+     text-align: left;
+     background: var(--white);
+}
+ .witr_case:hover .witr_content_casem{
+     bottom: -4px;
+}
+ .witr_content_casei {
+}
+ .witr_content_casei h2{
+}
+ .witr_content_casei p{
+     font-weight:700;
+     margin-bottom: 4px;
+     color: var(--brcolor);
+}
+/* case 2 style */
+ .witr_case2 .witr_content_casem {
+     bottom: 15px;
+     box-shadow: 0px 5px 20px 0px var(--bropacity);
+}
+/*=========================================================================================== #START TO COURSE ELEMENT CSS =============================================================================================*/
+ .witr_couses {
+     position: relative;
+     box-shadow:0px 0px 30px 0px rgb(234, 230, 230);
+     overflow: hidden;
+     background: var(--white);
+}
+ .caus_ttitle, .caus_mtitle {
+     margin-bottom: 10px;
+}
+ .witr_dis_btngr {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+ .witr_content_area_c {
+     padding: 15px 15px;
+}
+ .couses_single_progress {
+     margin-bottom: 19px;
+}
+/* Progress Bar */
+ .couses_bar_percent.progress {
+     overflow: visible;
+     height: 6px;
+     margin: 0;
+}
+ .couses_bar_percent .progress-bar {
+     position: relative;
+     line-height: 4px;
+}
+ .witr_title_bar span {
+     font-weight: 700;
+     margin-bottom: 4px;
+     display: inline-block;
+}
+ .couses_bar_percent span {
+     position: absolute;
+     right: 0;
+     font-weight: 600;
+     top: -15px;
+}
+ .caus_s2{
+     margin: 11px 0 17px;
+}
+ .caus_s3{
+     text-align:left;
+     background:var(--white);
+}
+ .caus_s3 .witr_dis_btngr {
+     justify-content: flex-start;
+}
+ .caus_s3 .caus_ttitle {
+     display: inline-block;
+     padding: 7px 15px;
+     margin-bottom:15px;
+}
+ .caus_s3 p+p{
+     margin-left:30px;
+}
+ .witr_couses:hover .caus_s3{
+     background:transparent;
+}
+ .witr_couses_image::before {
+     z-index:999;
+     background: var(--bropacity);
+}
+ .witr_couses:hover .caus_s3 h4, .witr_couses:hover .caus_s3 h2, .witr_couses:hover .caus_s3 h2 a, .witr_couses:hover .caus_s3 p, .witr_couses:hover .caus_s3 span {
+     color:var(--white);
+}
+ .witr_couses:hover .witr_couses_image::before {
+     opacity:1;
+}
+/*=========================================================================================== #START TO CONTACT ELEMENT CSS =============================================================================================*/
+ .witr_apartment_form form label, .witr_apartment_form label,.witr_apartment_form textarea{
+     width: 100%;
+}
+ .witr_apartment_form form select, .witr_apartment_form input,.witr_apartment_form textarea {
+     border: 1px solid var(--bdcolor);
+}
+ .apartment_area{
+     position: relative;
+     background-size: cover;
+     padding: 60px 35px 60px;
+     border-radius: 10px;
+     text-align: left;
+     box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 6%);
+}
+ .apartment_text h4{
+     margin-bottom: 5px;
+}
+ .apartment_text h2{
+     margin-bottom:40px;
+}
+ .witr_apartment_form form select option{
+}
+ .witr_apartment_form form select, .witr_apartment_form input{
+     width: 100%;
+     height: 45px;
+     border-radius: 5px;
+     outline: none;
+     margin-bottom: 23px;
+     color: var(--pracolor);
+}
+ .witr_apartment_form textarea{
+     margin-bottom: 25px;
+}
+ .witr_apartment_form input::-moz-placeholder{
+     color: var(--pracolor);
+     opacity: 1;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+ .witr_apartment_form input::-ms-input-placeholder{
+     color: var(--pracolor);
+     opacity: 1;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+ .witr_apartment_form input::-webkit-input-placeholder{
+     color: var(--pracolor);
+     opacity: 1;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+ .witr_apartment_form select::-webkit-input-placeholder, .witr_apartment_form textarea::-webkit-input-placeholder{
+     color: var(--pracolor);
+     opacity: 1;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+ .witr_apartment_form .btn {
+     border: 0 none;
+     display: inline-block;
+     font-weight: 600;
+     padding: 15px 30px;
+}
+ .checkbox_witr input {
+     width: 20px;
+     float: left;
+     margin-right: 15px;
+     margin-top: -8px;
+}
+ .checkbox_witr span {
+     font-size: 15px 
+}
+ .witr_con_btn2 .w_btn2 {
+    /* width: 100%;
+     */
+     text-align: center;
+     color: var(--white);
+     font-size: 17px;
+     cursor: pointer;
+     line-height: inherit;
+     border-radius: 30px;
+     font-weight: 500;
+     border: none;
+     transition: .5s;
+     outline: none;
+     padding: 12px 30px 15px;
+     display: inline-block;
+}
+ .apartment_text h4{
+     color: var(--brcolor);
+}
+ .witr_apartment_form .const_btn{
+     color: var(--brcolor);
+     background: var(--white);
+}
+ .witr_apartment_form .const_btn:hover, .witr_apartment_form .btn, .checkbox_witr span {
+     color: var(--white);
+     background: var(--brcolor);
+}
+ div.wpcf7-response-output {
+     color: #222429;
+}
+ .send_message input.wpcf7-submit{
+     color:var(--white);
+}
+ .send_message input.wpcf7-submit:hover{
+     color:var(--brcolor);
+}
+ .send_message input::-webkit-input-placeholder{
+     color: var(--pracolor) !important;
+}
+ .send_message input:-ms-input-placeholder{
+     color: var(--pracolor) !important;
+}
+ .send_message input::-moz-placeholder{
+     color: var(--pracolor) !important;
+}
+ .witr_apartment_form .btn:hover{
+     background: var(--brhovercolor);
+}
+/*=========================================================================================== #START TO COUNTDOWN ELEMENT CSS =============================================================================================*/
+
+.tx_countdown_box{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+	align-items: center;
+}
+.tx_single_countdown{
+    text-align: center;
+    width: 175px;
+    height: 150px;
+	position: relative;
+    display: grid;
+    gap: 3px;
+    align-content: center;
+     border: 1px solid var(--bdcolor);
+     background: var(--white);	
+}
+.tx_single_countdown span{
+	font-size: 45px;
+	line-height: 1;
+	color: var(--brcolor);
+}
+.tx_single_countdown p{
+	font-size: 19px;
+	line-height: 1;
+	margin:0;	
+}
+.tx_single_countdown::before,.tx_single_countdown::after{
+     position: absolute;
+     content: "";
+     right: -19px;
+     height: 12px;
+     width: 12px;
+     border-radius: 50%;
+     background: var(--brcolor);
+}
+.tx_single_countdown::before{
+     top: 55px;
+}
+.tx_single_countdown::after{
+     top: 84px;
+}
+.tx_single_countdown:last-child:after,.tx_single_countdown:last-child:before {
+    display: none
+}
+
+/* Style Two */
+.any_day_count{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+	align-items: center;
+}
+.tx_any_count {
+    text-align: center;
+    width: 175px;
+    height: 150px;
+    background: var(--brcolor);
+    display: grid;
+    gap: 3px;
+    align-content: center;
+}
+.tx_any_count span{
+	font-size: 45px;
+	line-height: 1;
+	color: var(--white);
+}
+.tx_any_count p{
+	font-size: 19px;
+	line-height: 1;
+	color: var(--white);
+	margin:0;	
+}
+.txdexpired {
+    background: var(--brcolor);
+    color: var(--white);
+    padding: 10px 23px;
+    border-radius: 5px;
+}
+
+/* responsive */
+ @media (min-width: 768px) and (max-width: 991px) {
+
+.tx_single_countdown::before{
+         display: none;
+    }
+.tx_single_countdown::after {
+         display: none;
+    }
+}
+ @media (max-width: 767px) {
+     .tx_single_countdown::before{
+         display: none;
+    }
+.tx_single_countdown::after{
+         display: none;
+    }
+}
+/*=========================================================================================== #START TO APPS BUTTON ELEMENT CSS =============================================================================================*/
+ .w_apps_button_image{
+     display: inline-block;
+     margin-right: 34px;
+}
+ .w_apps_button_image a{
+}
+ .w_apps_button{
+     display: inline-block;
+}
+ .w_apps_button a {
+     padding: 10px 30px 11px;
+     border-radius: 5px;
+     margin-right: 15px;
+     display: block;
+     -webkit-transition: .5s;
+     transition: .5s;
+}
+ span.imuzium {
+     float: left;
+     font-size: 25px;
+     margin-right: 15px;
+     margin-top: 0px;
+}
+ span.spaninner {
+     display: inline-block;
+    /* overflow: hidden;
+     */
+     font-size: 23px;
+}
+ span.smalltext {
+     display: block;
+     font-size: 14px;
+}
+/* responsive */
+ @media (min-width: 768px) and (max-width: 991px) {
+     .w_apps_button a {
+         padding: 8px 30px 9px;
+    }
+     span.spaninner {
+         font-size: 20px;
+    }
+}
+ @media (max-width: 767px){
+     .w_apps_button_area {
+         text-align: center;
+    }
+     span.spaninner {
+         font-size: 16px;
+         text-align: left;
+    }
+     .w_apps_button a {
+         padding: 5px 30px 6px;
+         margin: 0;
+         margin-bottom: 20px;
+    }
+}
+
+/*=========================================================
+ #START TO MARQUEE ELEMENT CSS
+ =========================================================*/
+ .marquee {
+    position: relative;
+    gap: 0px;
+    display: flex;
+    overflow: hidden;
+}
+.txmartex{
+    margin: 0;
+}
+@keyframes marleft {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+@keyframes marright {
+    0% {
+        transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+.marleft,.marright{
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 200%;
+    animation:  50s linear infinite marleft;  
+}
+.marright{
+    animation:  50s linear infinite marright;  
+}
+.marleft:hover,.marright:hover {
+    animation-play-state: paused;
+}  
+  .txmartext .txmartex a,
+  .txmartext .txmartex {
+     -webkit-text-stroke: 1px #888888;
+     -webkit-text-fill-color: transparent;  
+      font-size: 100px;
+      margin: 0 40px;
+  }
+.txmarimg .txmartex a,
+.txmarimg .txmartex {
+    color: transparent;   
+    font-size: 100px;
+    margin: 0 20px;
+    background-position: center center;
+   -webkit-background-clip: text;
+}
+/* responsive */
+@media (min-width: 768px) and (max-width: 991px) {
+    .txmartext .txmartex a, .txmartext .txmartex {
+        font-size: 40px;
+        margin: 0 10px;
+    }
+}
+@media (max-width: 767px){
+    .txmartext .txmartex a, .txmartext .txmartex {
+        font-size: 30px;
+        margin: 0 10px;
+    }
+}
+
+/*=========================================================
+ #START TO PRICE LIST CSS
+ =========================================================*/
+ .txprice_list_text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+.single_content_list {
+    width: 100%;
+}
+.txprice_list_header {
+    display: flex;
+    align-items: center;
+    flex-basis: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.txprice_list_separator {
+    border-bottom-style: dotted;
+    border-bottom-width: 2px;
+    flex-grow: 10;
+    height: 0; 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*=========================================================================================== #START TO TIMELINE HR ELEMENT CSS =============================================================================================*/
+/* GO verticletimeline.css */
+/*=========================================================================================== #START TO VERTICAL TIMELINE ELEMENT CSS =============================================================================================*/
+/* GO wtimeline.css */
+/*=========================================================================================== #START TO BUTTON ELEMENT CSS =============================================================================================*/
+/* GO wbtn.css */
+/*=========================================================================================== #START TO IMAGE COMPARE ELEMENT CSS =============================================================================================*/
+/* GO wimagecom.css */
+/*=========================================================================================== #START TO IMAGE AND TEXT CAROUSEL CSS =============================================================================================*/
+/* GO wimagetextcl.css */
+/*=========================================================================================== #START TO MORDAL ELEMENT CSS =============================================================================================*/
+/* GO wmordal.css */
+/*=========================================================================================== #START TO PROCESS ELEMENT CSS =============================================================================================*/
+/* GO wprocess.css */
+/*=========================================================================================== #START TO PROGRESS ELEMENT CSS =============================================================================================*/
+/* GO wprogress.css */
+/*=========================================================================================== #START TO SCREENSHOT ELEMENT CSS =============================================================================================*/
+/* GO wscreencl.css */
+/*=========================================================================================== #START TO SHOWDETAILS ELEMENT CSS =============================================================================================*/
+/* GO wshape.css */
+/*=========================================================================================== #START TO SHAPE ELEMENT CSS =============================================================================================*/
+/* GO wshowdtails.css */
+
+/*=========================================================================================== #START TO RESPONSIVE CSS =============================================================================================*/
+/* responsive */
+ @media (min-width: 1440px) and (max-width: 1600px) {
+}
+ @media (min-width: 1200px) and (max-width: 1440px) {
+}
+ @media (min-width: 1025px) and (max-width: 1800px) {
+}
+ @media (min-width: 992px) and (max-width: 1366px) {
+     .txbdsinner {
+         width: 90.29%;
+    }
+     .txbdsinner .txbdstitle {
+         font-size: 30px;
+    }
+    /* counter */
+     .witr_contx .counter, .witr_contx span {
+         font-size: 28px;
+         font-weight: 500;
+    }
+     .witr_counter_6 .wirt_new_iner {
+         padding: 20px 0px 20px;
+    }
+}
+ @media (min-width: 1170px) and (max-width: 1366px) {
+}
+ @media (min-width: 1365px) and (max-width: 1660px) {
+}
+ @media (min-width: 992px) and (max-width: 1300px) {
+}
+ @media (min-width: 1301px) and (max-width: 1440px) {
+}
+ @media (min-width: 992px) and (max-width: 1364px) {
+}
+ @media (min-width: 992px) and (max-width: 1199px) {
+}
+ @media (min-width: 768px) and (max-width: 991px) {
+    /* title */
+     .ttin .txbdstitle {
+         font-size: 30px;
+    }
+     .ttssb .text-left p {
+         width: 97%;
+    }
+     .ttitlebtn {
+         padding-top: 58px;
+    }
+    /* slider s */
+     .txbdsinner .txbdstitle {
+         font-size: 32px;
+    }
+     .txbdsinner p {
+         width: 94%;
+    }
+    /* counter */
+     .witr_contx .counter, .witr_contx span {
+         font-size: 30px;
+         font-weight: 500;
+    }
+     .witr_counter_6 .wirt_new_iner {
+         padding: 20px 0px 20px;
+    }
+	/* accordion */
+	.witr_ac_style {
+	    padding: 10px 6px;
+		font-size: 18px;
+	}
+	.witr_ac_style:before {
+		 right: 15px;
+		 display:none;
+	} 	
+    /* column css */
+     .elementor-column.elementor-col-33, .elementor-column.elementor-col-25, .elementor-column[data-col="33"], .elementor-column[data-col="25"]{
+         width:50% !important;
+    }
+     .elementor-column[data-col="20"], .elementor-column[data-col="10"], .elementor-column.elementor-col-20, .elementor-column.elementor-col-10{
+         width:30% !important;
+    }
+     .elementor-column[data-col="33"]:nth-child(3), .elementor-column.elementor-col-33:nth-child(3){
+         width:100% !important;
+    }
+     .elementor-column[data-col="33"]:nth-child(3) .elementor-widget, .elementor-column.elementor-col-33:nth-child(3) .elementor-widget{
+         width: 50% !important;
+    }
+     .elementor-column.elementor-col-33:nth-child(3) .elementor-widget:nth-child(odd){
+         padding-right: 10px;
+    }
+     .elementor-column[data-col="33"]:nth-child(3) .elementor-widget:nth-child(odd){
+         padding-left: 10px;
+    }
+     .elementor-column[data-col="33"]:nth-child(3) .elementor-widget:nth-child(even){
+         padding-right: 10px;
+    }
+     .elementor-column.elementor-col-33:nth-child(3) .elementor-widget:nth-child(even){
+         padding-left: 10px;
+    }
+}
+ @media (max-width: 767px) {
+    /* title css */
+     .ttin .txbdstitle {
+         font-size: 25px;
+    }
+     .tts .text-left, .tts .text-right, .tts .text-left .ttbi, .tts .text-right .ttbi, .tts .text-left p, .tts .text-right p{
+         text-align: center !important;
+         margin: auto;
+    }
+     .text-left .ttin p,.text-center .ttin p,.text-right .ttin p{
+         width:98%;
+    }
+     .title_in_area {
+         display: inherit;
+         text-align: center;
+    }
+     .title_p {
+         text-align: center;
+         width: 98%;
+         padding-left: 0;
+    }
+     .title_in::after,.title_in::before {
+         display:none;
+    }
+     .tts .btnallt{
+         margin-top:10px;
+    }
+    /* slider s */
+     .txbdsinner {
+         width: 88%;
+         text-align:center !important;
+		 justify-content: center !important;
+    }
+     .txbdsinner .txbdstitle {
+         font-size: 22px;
+         font-weight: 500;
+    }
+     .txbdsinner p {
+         width: 88%;
+    }
+     .allleft p, .allright p {
+         margin:auto;
+    }
+    /* btn css */
+     .txbdsbtn .btnall {
+         margin-right: 5px;
+    }
+     .btnallt {
+         font-size: 14px;
+         font-weight: 400;
+    }
+     .btnall {
+         padding: 5px 15px;
+    }
+    /* service */
+     .txbdsstyle3 .txbdsvflex {
+         padding: 10px 15px;
+    }
+    /* flipbox */
+     .flipbm {
+         height: 270px;
+    }
+    /* about us */
+     .wtextd.text-left {
+         text-align: center;
+    }
+    /* counter */
+     .witr_contx .counter, .witr_contx span {
+         font-size: 25px;
+         font-weight: 500;
+    }
+     .witr_counter_icon i {
+         font-size: 18px;
+         margin-bottom: 10px;
+    }
+     .witr_counter_single {
+         text-align: center;
+    }
+     .wirt_counter_tiner {
+         text-align: left;
+    }
+     .witr_counter_6 .wirt_new_iner {
+         padding: 20px 0px 20px;
+    }
+     .witr_contx.tcon5 {
+         text-align: left;
+    }
+    /* event schedule */
+     .txbd_event_schedule_text {
+         text-align: center;
+         padding: 10px 15px 30px;
+    }
+    /* event */
+     .evmbpad .wblogtitle{
+         padding-top:15px;
+    }
+    /* pricing */
+     .tpr_con3 .tpr_cua {
+         width: 120px;
+         height: 120px;
+         display: table;
+         margin: 15px auto 15px;
+    }
+    /* tab */
+     .witr_taba_style1 .nav-tabs .nav-link {
+         margin-right: 0;
+         padding: 15px 15px;
+         margin-bottom: 10px;
+    }
+     .witr_taba_style1 .nav-tabs span {
+         margin: 0 5px;
+    }
+	/* accordion */
+	.witr_ac_style {
+		padding: 6px 6px;
+		font-size: 17px;
+	}
+	.witr_ac_style:before {
+		display:none;
+	}
+
+	
+}
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+ @media only screen and (min-width: 0px) and (max-width: 991px) {
+    /* slider s */
+     .witr_slider_thumb {
+         display: none;
+    }
+    /* event */
+     .evmbpad{
+         margin-bottom:30px;
+    }
+     .evmbpad3{
+         padding-bottom:30px;
+    }
+     .evmbpad p{
+         margin-bottom:10px;
+    }
+     .text-end.ebentbtn {
+         text-align: left !important;
+         padding-top: 10px;
+    }
+}
+ @media only screen and (min-width: 0px) and (max-width: 1200px) {
+    /* portslider s */
+     .witr_pslide .witr_pslide_custom a span {
+         width: 60px;
+         height: 60px;
+         line-height: 60px;
+         font-size: 18px;
+    }
+}
+ @media only screen and (min-width: 1px) and (max-width: 1400px) {
+    /* slider s */
+     .txbdsinner {
+         height: auto;
+         height: 100vh;
+    }
+}
+ 

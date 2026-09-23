@@ -9,6 +9,7 @@ use MoonShine\Contracts\UI\ComponentContract;
 use MoonShine\Contracts\UI\FieldContract;
 use MoonShine\Laravel\Pages\Crud\DetailPage;
 use MoonShine\Support\ListOf;
+use MoonShine\TinyMce\Fields\TinyMce;
 use MoonShine\UI\Components\Table\TableBuilder;
 use MoonShine\UI\Fields\ID;
 use MoonShine\UI\Fields\Image;
@@ -31,7 +32,8 @@ class PageDetailPage extends DetailPage
             Text::make('Имя', 'name')->required(),
             Text::make('Slug', 'slug'),
             Text::make('Заголовок', 'title')->required(),
-            Textarea::make('Контент', 'content'),
+            Textarea::make('Краткий текст', 'short_content'),
+            TinyMce::make('Контент', 'content'),
             Image::make('Картинка', 'image'),
         ];
     }

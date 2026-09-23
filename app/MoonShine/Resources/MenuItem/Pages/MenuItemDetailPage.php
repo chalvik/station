@@ -29,14 +29,12 @@ class MenuItemDetailPage extends DetailPage
     protected function fields(): iterable
     {
         return [
-            Box::make([
                 ID::make(),
                 Enum::make('Меню', 'menu_id')
                     ->attach(MenuEnum::class)->required(),
                 Text::make('Заголовок', 'title')->required(),
                 Text::make('Url', 'url'),
                 Number::make('Сортировка', 'order'),
-            ]),
         ];
     }
 

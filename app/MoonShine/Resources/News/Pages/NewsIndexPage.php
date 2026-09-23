@@ -35,7 +35,6 @@ class NewsIndexPage extends IndexPage
             Text::make('Slug', 'slug'),
             Text::make('Заголовок', 'title')->required(),
             Checkbox::make('Опубликовать', 'published'),
-
         ];
     }
 

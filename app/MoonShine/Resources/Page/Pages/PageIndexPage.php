@@ -35,7 +35,7 @@ class PageIndexPage extends IndexPage
             Text::make('Имя', 'name')->required(),
             Text::make('Slug', 'slug'),
             Text::make('Заголовок', 'title')->required(),
-            Textarea::make('Контент', 'content'),
+            Textarea::make('Краткий текст', 'short_content'),
             Image::make('Картинка', 'image'),
         ];
     }

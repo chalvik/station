@@ -53,4 +53,9 @@ final class MoonShineLayout extends AppLayout
 
         // $colorManager->primary('#00000');
     }
+
+    protected function isAlwaysDark(): bool
+    {
+        return false; // Светлая тема по умолчанию / отключение принудительного темного режима
+    }
 }
