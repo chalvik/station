@@ -6,5 +6,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class SliderImage extends Model
 {
-    //
+    protected $fillable = [
+        'slider_id',
+        'name',
+        'title',
+        'url',
+        'image',
+    ];
 }
