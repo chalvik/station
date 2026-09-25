@@ -2419,6 +2419,9 @@
 
         /*# sourceURL=https://themes.codcrash.com/CMS/CC07/wp-includes/blocks/paragraph/style.min.css */
     </style>
+
+
+
     <link rel='stylesheet' id='font-awesome-5-all-css'
           href='https://themes.codcrash.com/CMS/CC07/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.33.1'
           media='all'/>

@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\MoonShine\Resources\SliderImage\Pages;
 
+use App\Enums\SliderEnum;
 use App\MoonShine\Resources\SliderImage\SliderImageResource;
 use MoonShine\Contracts\UI\ComponentContract;
 use MoonShine\Contracts\UI\FieldContract;
@@ -12,7 +13,10 @@ use MoonShine\Laravel\QueryTags\QueryTag;
 use MoonShine\Support\ListOf;
 use MoonShine\UI\Components\Metrics\Wrapped\Metric;
 use MoonShine\UI\Components\Table\TableBuilder;
+use MoonShine\UI\Fields\Enum;
 use MoonShine\UI\Fields\ID;
+use MoonShine\UI\Fields\Image;
+use MoonShine\UI\Fields\Text;
 use Throwable;
 
 /**
@@ -29,6 +33,12 @@ class SliderImageIndexPage extends IndexPage
     {
         return [
             ID::make(),
+            Image::make('Картинка', 'image'),
+            Enum::make('Слайдер', 'slider_id')->attach(SliderEnum::class),
+            Text::make('Название', 'name'),
+            Text::make('Заголовок', 'title'),
+            Text::make('Ссылка', 'url'),
+
         ];
     }
 

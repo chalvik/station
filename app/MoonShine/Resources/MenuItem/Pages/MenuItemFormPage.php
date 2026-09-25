@@ -6,6 +6,8 @@ namespace App\MoonShine\Resources\MenuItem\Pages;
 
 use App\Enums\MenuEnum;
 use App\MoonShine\Resources\MenuItem\MenuItemResource;
+use Illuminate\Database\Eloquent\Builder;
+use MoonShine\Laravel\Fields\Relationships\BelongsTo;
 use MoonShine\Contracts\Core\TypeCasts\DataWrapperContract;
 use MoonShine\Contracts\UI\ComponentContract;
 use MoonShine\Contracts\UI\FieldContract;
@@ -30,9 +32,20 @@ class MenuItemFormPage extends FormPage
      */
     protected function fields(): iterable
     {
+        $currentModel = $this->getItem();
+
         return [
             Box::make([
                 ID::make(),
+                BelongsTo::make('Родительский', 'menuItem', 'title')
+                    ->valuesQuery(function (Builder $query) use ($currentModel) {
+                        // Если запись уже создана (существует в базе), исключаем её ID
+                        $query->whereNull('menu_item_id');
+                        return $currentModel && $currentModel->exists
+                            ? $query->where('id', '!=', $currentModel->id)
+                            : $query;
+                    })
+                    ->nullable(),
                 Enum::make('Меню', 'menu_id')
                     ->attach(MenuEnum::class)->required(),
                 Text::make('Заголовок', 'title')->required(),

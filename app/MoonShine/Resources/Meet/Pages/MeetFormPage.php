@@ -11,9 +11,13 @@ use MoonShine\Contracts\UI\FieldContract;
 use MoonShine\Contracts\UI\FormBuilderContract;
 use MoonShine\Laravel\Pages\Crud\FormPage;
 use MoonShine\Support\ListOf;
+use MoonShine\TinyMce\Fields\TinyMce;
 use MoonShine\UI\Components\FormBuilder;
 use MoonShine\UI\Components\Layout\Box;
+use MoonShine\UI\Fields\Date;
 use MoonShine\UI\Fields\ID;
+use MoonShine\UI\Fields\Image;
+use MoonShine\UI\Fields\Textarea;
 use Throwable;
 
 /**
@@ -29,6 +33,10 @@ class MeetFormPage extends FormPage
         return [
             Box::make([
                 ID::make(),
+                Date::make('Дата', 'date')->required(),
+                Textarea::make('Краткое описание', 'short_content'),
+                TinyMce::make('Описание', 'content')->required(),
+                Image::make('Карртинка', 'image'),
             ]),
         ];
     }

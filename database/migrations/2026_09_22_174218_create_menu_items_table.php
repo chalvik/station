@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('menu_items', function (Blueprint $table) {
             $table->id();
             $table->integer('menu_id');
-            $table->foreignIdFor(\App\Models\MenuItem::class);
+            $table->foreignIdFor(\App\Models\MenuItem::class)->nullable();
             $table->string('title');
             $table->string('url')->nullable();
             $table->integer('order')->default(0);

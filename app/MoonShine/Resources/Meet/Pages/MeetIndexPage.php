@@ -10,9 +10,13 @@ use MoonShine\Contracts\UI\FieldContract;
 use MoonShine\Laravel\Pages\Crud\IndexPage;
 use MoonShine\Laravel\QueryTags\QueryTag;
 use MoonShine\Support\ListOf;
+use MoonShine\TinyMce\Fields\TinyMce;
 use MoonShine\UI\Components\Metrics\Wrapped\Metric;
 use MoonShine\UI\Components\Table\TableBuilder;
+use MoonShine\UI\Fields\Date;
 use MoonShine\UI\Fields\ID;
+use MoonShine\UI\Fields\Image;
+use MoonShine\UI\Fields\Textarea;
 use Throwable;
 
 /**
@@ -29,12 +33,13 @@ class MeetIndexPage extends IndexPage
     {
         return [
             ID::make(),
+            Date::make('Дата', 'date'),
+            Textarea::make('Краткое описание', 'short_content'),
+            TinyMce::make('Описание', 'content'),
+            Image::make('Карртинка', 'image'),
         ];
     }
 
-    /**
-     * @return ListOf<ActionButtonContract>
-     */
     protected function buttons(): ListOf
     {
         return parent::buttons();

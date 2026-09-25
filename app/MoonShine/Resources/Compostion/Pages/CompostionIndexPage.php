@@ -13,6 +13,7 @@ use MoonShine\Support\ListOf;
 use MoonShine\UI\Components\Metrics\Wrapped\Metric;
 use MoonShine\UI\Components\Table\TableBuilder;
 use MoonShine\UI\Fields\ID;
+use MoonShine\UI\Fields\Text;
 use Throwable;
 
 /**
@@ -29,12 +30,12 @@ class CompostionIndexPage extends IndexPage
     {
         return [
             ID::make(),
+            Text::make('Ф И О', 'full_name'),
+            Text::make('Должность', 'position'),
         ];
     }
 
-    /**
-     * @return ListOf<ActionButtonContract>
-     */
+
     protected function buttons(): ListOf
     {
         return parent::buttons();
